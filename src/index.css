@@ -1,0 +1,238 @@
+@import '@fontsource/heebo/300.css';
+@import '@fontsource/heebo/400.css';
+@import '@fontsource/heebo/500.css';
+@import '@fontsource/heebo/700.css';
+@import '@fontsource/heebo/800.css';
+@import '@fontsource/open-sans/400.css';
+@import '@fontsource/open-sans/400-italic.css';
+@import '@fontsource/open-sans/600.css';
+@import '@fontsource/nobile/400.css';
+@import '@fontsource/nobile/500.css';
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+/* ============================================================
+   Token RGR Architetti, estratti dal CSS del sito attuale
+   (templates/manufacturer/css/presets/default.css + logo).
+   ============================================================ */
+:root {
+  /* identità */
+  --rgr-red: #f4171c; /* rosso del logo (ARCHITETTI e linea) */
+  --rgr-red-web: #ff0000; /* rosso link/hover del sito */
+  --rgr-grey: #a7abad; /* grigio delle lettere RGR */
+  --rgr-ink: #252525; /* testo */
+  --rgr-black: #0d0d0d; /* menu */
+  --rgr-paper: #ffffff;
+  --rgr-paper-2: #f6f6f6; /* sfondo body originale */
+  --rgr-line: #ededed;
+  --rgr-footer: #171717;
+  --rgr-footer-link: #a2a2a2;
+
+  /* shadcn */
+  --radius: 0.125rem;
+  --background: var(--rgr-paper);
+  --foreground: var(--rgr-ink);
+  --card: var(--rgr-paper);
+  --card-foreground: var(--rgr-ink);
+  --popover: var(--rgr-paper);
+  --popover-foreground: var(--rgr-ink);
+  --primary: var(--rgr-red);
+  --primary-foreground: #ffffff;
+  --secondary: var(--rgr-paper-2);
+  --secondary-foreground: var(--rgr-ink);
+  --muted: var(--rgr-paper-2);
+  --muted-foreground: #6b6e70;
+  --accent: var(--rgr-paper-2);
+  --accent-foreground: var(--rgr-ink);
+  --destructive: var(--rgr-red-web);
+  --border: #e4e5e6;
+  --input: #d9dbdc;
+  --ring: var(--rgr-red);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 1px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+
+  --color-rgr-red: var(--rgr-red);
+  --color-rgr-grey: var(--rgr-grey);
+  --color-rgr-ink: var(--rgr-ink);
+  --color-rgr-black: var(--rgr-black);
+  --color-rgr-paper-2: var(--rgr-paper-2);
+  --color-rgr-footer: var(--rgr-footer);
+  --color-rgr-footer-link: var(--rgr-footer-link);
+
+  --font-display: 'Heebo', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Open Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-nav: 'Nobile', 'Open Sans', ui-sans-serif, sans-serif;
+
+  --ease-draw: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: auto;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-size: 16px;
+    line-height: 1.65;
+    overflow-x: clip;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    line-height: 1.02;
+    color: var(--rgr-black);
+  }
+  ::selection {
+    background: var(--rgr-red);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid var(--rgr-red);
+    outline-offset: 3px;
+  }
+  img {
+    max-width: 100%;
+  }
+  /* griglie a una colonna: mai più larghe del contenitore (le classi grid-cols-* le sovrascrivono) */
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+@layer components {
+  .container-rgr {
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: clamp(1rem, 4vw, 4rem);
+  }
+  /* etichetta tecnica, come i testi di un cartiglio */
+  .label-tech {
+    font-family: var(--font-nav);
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted-foreground);
+  }
+  /* su mobile le etichette tecniche non scendono sotto i 12px, anche dove sono rimpicciolite */
+  @media (max-width: 767px) {
+    .label-tech,
+    .label-tech * {
+      font-size: max(0.75rem, 1em) !important;
+      letter-spacing: 0.16em;
+    }
+  }
+  /* foglio da disegno: griglia millimetrata leggerissima */
+  .paper-grid {
+    background-color: #fff;
+    background-image:
+      linear-gradient(to right, rgba(167, 171, 173, 0.13) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(167, 171, 173, 0.13) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+  .link-draw {
+    position: relative;
+    background-image: linear-gradient(var(--rgr-red), var(--rgr-red));
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s var(--ease-draw), color 0.3s;
+  }
+  .link-draw:hover,
+  .link-draw[aria-current='page'] {
+    background-size: 100% 1px;
+  }
+  /* segni di squadratura agli angoli (crop marks) */
+  .crop-marks {
+    position: relative;
+  }
+  .crop-marks::before,
+  .crop-marks::after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+    transition: all 0.5s var(--ease-out-expo);
+    opacity: 0;
+    z-index: 2;
+  }
+  .crop-marks::before {
+    top: -8px;
+    left: -8px;
+    border-top: 1px solid var(--rgr-red);
+    border-left: 1px solid var(--rgr-red);
+  }
+  .crop-marks::after {
+    bottom: -8px;
+    right: -8px;
+    border-bottom: 1px solid var(--rgr-red);
+    border-right: 1px solid var(--rgr-red);
+  }
+  .group:hover .crop-marks::before,
+  .group:focus-visible .crop-marks::before,
+  .group:hover .crop-marks::after,
+  .group:focus-visible .crop-marks::after {
+    opacity: 1;
+  }
+  .group:hover .crop-marks::before {
+    top: -12px;
+    left: -12px;
+  }
+  .group:hover .crop-marks::after {
+    bottom: -12px;
+    right: -12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

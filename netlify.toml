@@ -1,0 +1,769 @@
+# Generato da scripts/gen-netlify.mjs
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+
+# ---- 301 dai vecchi indirizzi del sito Joomla ----
+[[redirects]]
+  from = "/index.php"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/chi-siamo.html"
+  to = "/studio"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/chi-siamo"
+  to = "/studio"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti.html"
+  to = "/progetti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contatti.html"
+  to = "/contatti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali"
+  to = "/progetti/residenziale"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design"
+  to = "/progetti/interior-design"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione"
+  to = "/progetti/commerciale"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-industriali-rgr"
+  to = "/progetti/industriale"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-industriali"
+  to = "/progetti/industriale"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2022-attico-a-milano"
+  to = "/progetti/residenziale/attico-a-milano-2022"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2021-villettaaschieragorle"
+  to = "/progetti/residenziale/villetta-a-schiera-2021"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/bioedilizia-a-gorle"
+  to = "/progetti/residenziale/villa-bioedilizia-gorle-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/le-dimore"
+  to = "/progetti/residenziale/le-dimore-di-via-arena-in-citta-alta-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2018-loft-a-bergamo"
+  to = "/progetti/residenziale/loft-a-bergamo-2018"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/recupero"
+  to = "/progetti/residenziale/recupero-sottotetto-a-milano-2018"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2017-recupero-sottotetto-a-cavalese-tn"
+  to = "/progetti/residenziale/recupero-sottotetto-a-cavalese-tn-2017"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2016-villa-a-chignolo-d-isola-bg"
+  to = "/progetti/residenziale/villa-a-chignolo-disola-bg-2016"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villa-in-citta-alta"
+  to = "/progetti/residenziale/appartamento-in-citta-alta-2015"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2015-via-porta-dipinta-bergamo"
+  to = "/progetti/residenziale/via-porta-dipinta-bergamo-2015"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villa-a-valsanzibio"
+  to = "/progetti/residenziale/villa-a-valsanzibio-pd-2014"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/casa-colli-bergamo"
+  to = "/progetti/residenziale/casa-sui-colli-bergamo-2014"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2013-corti-storiche-a-cornate-d-adda-mi"
+  to = "/progetti/residenziale/corti-storiche-a-cornate-dadda-mi-2013"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villa-castione"
+  to = "/progetti/residenziale/villa-bifamiliare-castione-della-presolana-2012"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2012-palazzo-calepio"
+  to = "/progetti/residenziale/palazzo-calepio-2012"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/fienile"
+  to = "/progetti/residenziale/recupero-fienile-e-cascina-bg-2011"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2011-casa-di-campagna-a-casteggio-pv"
+  to = "/progetti/residenziale/casa-di-campagna-a-casteggio-pv-2011"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villa-a-scanzorosciate"
+  to = "/progetti/residenziale/appartamenti-a-scanzorosciate-bg-2010"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2009-villa-castione-della-presolana"
+  to = "/progetti/residenziale/villa-castione-della-presolana-2009"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/casa-marca"
+  to = "/progetti/residenziale/casa-marca-bergamo-2009"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/appartamento-roma"
+  to = "/progetti/residenziale/appartamento-a-roma-2008"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/casa-sul-parco"
+  to = "/progetti/residenziale/casa-sul-parco-bg-2008"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2008-via-porta-dipinta-27-bg"
+  to = "/progetti/residenziale/via-porta-dipinta-27-bg-2008"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villetta"
+  to = "/progetti/residenziale/villetta-monterotondo-marittimo-gr-2007"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villa-forte-dei-marmi"
+  to = "/progetti/residenziale/villa-la-randa-forte-dei-marmi-2006"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/condominio-treviolo"
+  to = "/progetti/residenziale/condominio-a-treviolo-bg-2005"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/condominio-seriate"
+  to = "/progetti/residenziale/ristrutturazione-condominio-a-seriate-2004"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/2022-outdoor-da-vittorio"
+  to = "/progetti/interior-design/outdoor-da-vittorio-2022"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/2021-appartamento-a-madonna-di-campiglio"
+  to = "/progetti/interior-design/appartamento-a-madonna-di-campiglio-2021"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/2021-villetta-a-bergamo"
+  to = "/progetti/interior-design/villetta-a-bergamo-2021"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/2020-appartamento-a-santa-margherita"
+  to = "/progetti/interior-design/appartamento-a-santa-margherita-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/arredo-casa"
+  to = "/progetti/interior-design/arredo-casa-d-2017"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/2017-recupero-appartamento-a-bg"
+  to = "/progetti/interior-design/recupero-appartamento-a-bg-2017"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/palazzo-calepio"
+  to = "/progetti/interior-design/palazzo-calepio-2012-interior-design"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2021-arredo-ristorante-bg"
+  to = "/progetti/commerciale/arredo-ristorante-bg-2021"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2020-uffici-unigel"
+  to = "/progetti/commerciale/uffici-unigel-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/risto-bio"
+  to = "/progetti/commerciale/ristobio-self-service-alzano-bg-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2020-bistrot-vicook-villa-reale"
+  to = "/progetti/commerciale/bistrot-vicook-villa-reale-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/mensa-faster"
+  to = "/progetti/commerciale/mensa-aziendale-faster-2019"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2018-mensa-aziendale-ire-omba"
+  to = "/progetti/commerciale/mensa-aziendale-ire-omba-2018"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2018-uffici-via-locatelli"
+  to = "/progetti/commerciale/uffici-via-locatelli-2018"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2017-radicifill"
+  to = "/progetti/commerciale/radicifill-2017"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2017-lucca-engraving-uffici-lu"
+  to = "/progetti/commerciale/lucca-engraving-uffici-lu-2017"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/pasticceria-morlacchi"
+  to = "/progetti/commerciale/pasticceria-morlacchi-bg-2016"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/guest-house"
+  to = "/progetti/commerciale/guest-house-2014"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/negozio-bici"
+  to = "/progetti/commerciale/negozio-bici-2013"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/uffici-crotti"
+  to = "/progetti/commerciale/uffici-crotti-2012"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2009-uffici-via-frizzoni-bg"
+  to = "/progetti/commerciale/uffici-via-frizzoni-2009"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-industriali/cementeria-padova"
+  to = "/progetti/industriale/cementeria-padova-2008"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-industriali/serbia-produzione-industriale"
+  to = "/progetti/industriale/sito-industriale-produzione-alta-moda-serbia-2019"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/casa-di-montagna"
+  to = "/rassegna-stampa/casa-di-montagna"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/impresa-edile"
+  to = "/rassegna-stampa/impresa-edile"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.php/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/home/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/chi-siamo/"
+  to = "/studio"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/"
+  to = "/progetti/residenziale"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/"
+  to = "/progetti/interior-design"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/"
+  to = "/progetti/commerciale"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-industriali-rgr/"
+  to = "/progetti/industriale"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-industriali/"
+  to = "/progetti/industriale"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2022-attico-a-milano/"
+  to = "/progetti/residenziale/attico-a-milano-2022"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2021-villettaaschieragorle/"
+  to = "/progetti/residenziale/villetta-a-schiera-2021"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/bioedilizia-a-gorle/"
+  to = "/progetti/residenziale/villa-bioedilizia-gorle-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/le-dimore/"
+  to = "/progetti/residenziale/le-dimore-di-via-arena-in-citta-alta-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2018-loft-a-bergamo/"
+  to = "/progetti/residenziale/loft-a-bergamo-2018"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/recupero/"
+  to = "/progetti/residenziale/recupero-sottotetto-a-milano-2018"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2017-recupero-sottotetto-a-cavalese-tn/"
+  to = "/progetti/residenziale/recupero-sottotetto-a-cavalese-tn-2017"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2016-villa-a-chignolo-d-isola-bg/"
+  to = "/progetti/residenziale/villa-a-chignolo-disola-bg-2016"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villa-in-citta-alta/"
+  to = "/progetti/residenziale/appartamento-in-citta-alta-2015"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2015-via-porta-dipinta-bergamo/"
+  to = "/progetti/residenziale/via-porta-dipinta-bergamo-2015"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villa-a-valsanzibio/"
+  to = "/progetti/residenziale/villa-a-valsanzibio-pd-2014"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/casa-colli-bergamo/"
+  to = "/progetti/residenziale/casa-sui-colli-bergamo-2014"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2013-corti-storiche-a-cornate-d-adda-mi/"
+  to = "/progetti/residenziale/corti-storiche-a-cornate-dadda-mi-2013"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villa-castione/"
+  to = "/progetti/residenziale/villa-bifamiliare-castione-della-presolana-2012"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2012-palazzo-calepio/"
+  to = "/progetti/residenziale/palazzo-calepio-2012"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/fienile/"
+  to = "/progetti/residenziale/recupero-fienile-e-cascina-bg-2011"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2011-casa-di-campagna-a-casteggio-pv/"
+  to = "/progetti/residenziale/casa-di-campagna-a-casteggio-pv-2011"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villa-a-scanzorosciate/"
+  to = "/progetti/residenziale/appartamenti-a-scanzorosciate-bg-2010"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2009-villa-castione-della-presolana/"
+  to = "/progetti/residenziale/villa-castione-della-presolana-2009"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/casa-marca/"
+  to = "/progetti/residenziale/casa-marca-bergamo-2009"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/appartamento-roma/"
+  to = "/progetti/residenziale/appartamento-a-roma-2008"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/casa-sul-parco/"
+  to = "/progetti/residenziale/casa-sul-parco-bg-2008"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/2008-via-porta-dipinta-27-bg/"
+  to = "/progetti/residenziale/via-porta-dipinta-27-bg-2008"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villetta/"
+  to = "/progetti/residenziale/villetta-monterotondo-marittimo-gr-2007"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/villa-forte-dei-marmi/"
+  to = "/progetti/residenziale/villa-la-randa-forte-dei-marmi-2006"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/condominio-treviolo/"
+  to = "/progetti/residenziale/condominio-a-treviolo-bg-2005"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-residenziali/condominio-seriate/"
+  to = "/progetti/residenziale/ristrutturazione-condominio-a-seriate-2004"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/2022-outdoor-da-vittorio/"
+  to = "/progetti/interior-design/outdoor-da-vittorio-2022"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/2021-appartamento-a-madonna-di-campiglio/"
+  to = "/progetti/interior-design/appartamento-a-madonna-di-campiglio-2021"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/2021-villetta-a-bergamo/"
+  to = "/progetti/interior-design/villetta-a-bergamo-2021"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/2020-appartamento-a-santa-margherita/"
+  to = "/progetti/interior-design/appartamento-a-santa-margherita-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/arredo-casa/"
+  to = "/progetti/interior-design/arredo-casa-d-2017"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/2017-recupero-appartamento-a-bg/"
+  to = "/progetti/interior-design/recupero-appartamento-a-bg-2017"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-interior-design/palazzo-calepio/"
+  to = "/progetti/interior-design/palazzo-calepio-2012-interior-design"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2021-arredo-ristorante-bg/"
+  to = "/progetti/commerciale/arredo-ristorante-bg-2021"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2020-uffici-unigel/"
+  to = "/progetti/commerciale/uffici-unigel-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/risto-bio/"
+  to = "/progetti/commerciale/ristobio-self-service-alzano-bg-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2020-bistrot-vicook-villa-reale/"
+  to = "/progetti/commerciale/bistrot-vicook-villa-reale-2020"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/mensa-faster/"
+  to = "/progetti/commerciale/mensa-aziendale-faster-2019"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2018-mensa-aziendale-ire-omba/"
+  to = "/progetti/commerciale/mensa-aziendale-ire-omba-2018"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2018-uffici-via-locatelli/"
+  to = "/progetti/commerciale/uffici-via-locatelli-2018"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2017-radicifill/"
+  to = "/progetti/commerciale/radicifill-2017"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2017-lucca-engraving-uffici-lu/"
+  to = "/progetti/commerciale/lucca-engraving-uffici-lu-2017"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/pasticceria-morlacchi/"
+  to = "/progetti/commerciale/pasticceria-morlacchi-bg-2016"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/guest-house/"
+  to = "/progetti/commerciale/guest-house-2014"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/negozio-bici/"
+  to = "/progetti/commerciale/negozio-bici-2013"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/uffici-crotti/"
+  to = "/progetti/commerciale/uffici-crotti-2012"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-commerciale-e-direzione/2009-uffici-via-frizzoni-bg/"
+  to = "/progetti/commerciale/uffici-via-frizzoni-2009"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-industriali/cementeria-padova/"
+  to = "/progetti/industriale/cementeria-padova-2008"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/progetti-industriali/serbia-produzione-industriale/"
+  to = "/progetti/industriale/sito-industriale-produzione-alta-moda-serbia-2019"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/casa-di-montagna/"
+  to = "/rassegna-stampa/casa-di-montagna"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/impresa-edile/"
+  to = "/rassegna-stampa/impresa-edile"
+  status = 301
+  force = true
+
+# ---- pagine del sito (single page app) ----
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

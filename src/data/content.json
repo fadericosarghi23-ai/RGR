@@ -1,0 +1,3497 @@
+{
+  "importedAt": "2026-11-13",
+  "source": "https://www.rgrarchitetti.it",
+  "site": {
+    "quote": [
+      "Chi progetta sa di aver raggiunto la perfezione",
+      "non quando non ha più nulla da aggiungere",
+      "ma quando non gli resta più niente da togliere"
+    ],
+    "quoteAuthor": "Antoine de Saint-Exupéry",
+    "intro": "Lo studio RGR nasce nel 2003 dall’incontro di tre donne dinamiche che hanno fatto della loro attività un esempio di professionalità tutta al femminile, vivace e sensibile alle necessità del vivere contemporaneo.",
+    "services": [
+      "Progettazione ex-novo",
+      "Ristrutturazioni edilizie",
+      "Recupero edilizia storica",
+      "Interior design",
+      "Allestimenti e installazioni",
+      "Pianificazione urbanistica",
+      "Direzione lavori e sicurezza dei cantieri",
+      "Consulenza progettuale e perizie estimative",
+      "Variazioni catastali",
+      "Consulenza tecnica per il Tribunale"
+    ],
+    "address": {
+      "street": "Via Teodoro Frizzoni, 22",
+      "cap": "24121",
+      "city": "Bergamo"
+    },
+    "email": "info@rgrarchitetti.it",
+    "phone": "+39 035 244 662",
+    "partners": [
+      {
+        "name": "Barbara Radici",
+        "piva": "02668390160",
+        "cf": "RDCBBR67H48F205P",
+        "email": "barbara.radici@rgrarchitetti.it"
+      },
+      {
+        "name": "Raffaella Guazzoni",
+        "piva": "02950680161",
+        "cf": "GZZRFL67S56F205Z",
+        "email": "raffaella.guazzoni@rgrarchitetti.it"
+      },
+      {
+        "name": "Cristina Rovetta",
+        "piva": "02696270160",
+        "cf": "RVTCST69R52A794X",
+        "email": "cristina.rovetta@rgrarchitetti.it"
+      }
+    ]
+  },
+  "home": {
+    "slides": [
+      {
+        "src": "/img/home/slide-1.webp",
+        "w": 1320,
+        "h": 700
+      },
+      {
+        "src": "/img/home/slide-2.webp",
+        "w": 1320,
+        "h": 699
+      },
+      {
+        "src": "/img/home/slide-3.webp",
+        "w": 1320,
+        "h": 699
+      },
+      {
+        "src": "/img/home/slide-4.webp",
+        "w": 1320,
+        "h": 699
+      },
+      {
+        "src": "/img/home/slide-5.webp",
+        "w": 1320,
+        "h": 699
+      }
+    ],
+    "studioPhoto": {
+      "src": "/img/home/studio.webp",
+      "w": 800,
+      "h": 600,
+      "tw": 800,
+      "thumb": "/img/home/studio-t.webp"
+    }
+  },
+  "team": [
+    {
+      "name": "Barbara Radici",
+      "group": "socie",
+      "bio": "Nata a Milano. Laurea magistrale in Architettura al Politecnico di Milano. Iscritta all’Ordine degli Architetti della provincia di Bergamo dal 1996.",
+      "quote": "Sono sensibile alla storia che ogni luogo e ogni oggetto racconta, l'architetto è come un artigiano degli spazi e delle forme che entra in punta di piedi e lascia la propria firma in armonia con l’esistente.",
+      "slug": "barbara-radici",
+      "photo": {
+        "src": "/img/studio/barbara-radici.webp",
+        "w": 300,
+        "h": 300
+      }
+    },
+    {
+      "name": "Raffaella Guazzoni",
+      "group": "socie",
+      "bio": "Nata a Milano. Laurea magistrale in Architettura al Politecnico di Milano. Iscritta all’Ordine degli Architetti della provincia di Milano (1993-1996), trasferita a Bergamo e iscritta all’Ordine degli Architetti di Bergamo (dal 1996 a oggi).",
+      "quote": "Il benessere fisico e mentale, la ricerca dell’equilibrio è un focus fondamentale che definisce il progetto architettonico. Questa ricerca del benessere mi ha avvicinata allo yoga, disciplina che pratico costantemente anche come insegnante.",
+      "slug": "raffaella-guazzoni",
+      "photo": {
+        "src": "/img/studio/raffaella-guazzoni.webp",
+        "w": 525,
+        "h": 525
+      }
+    },
+    {
+      "name": "Cristina Rovetta",
+      "group": "socie",
+      "bio": "Nata a Bergamo. Laurea magistrale in Architettura al Politecnico di Milano. Iscritta all’Ordine degli Architetti della Provincia di Bergamo dal 1998.",
+      "quote": "Natura, bellezza, amore per il dettaglio e sostenibilità sono le parole chiave dell’architettura contemporanea. Su queste basi costruisco l’immagine di ciò che voglio realizzare, cercando di trasmetterli a chi abiterà i luoghi e gli spazi.",
+      "slug": "cristina-rovetta",
+      "photo": {
+        "src": "/img/studio/cristina-rovetta.webp",
+        "w": 525,
+        "h": 525
+      }
+    },
+    {
+      "name": "Noemi Valdambrini",
+      "group": "collaboratori",
+      "bio": "Nata a Lucca. Laurea magistrale in Progettazione dell’Architettura all'Università di Firenze con tesi sulle potenzialità del BIM nel settore del management museale e dei beni culturali (caso studio della Galleria dell’Accademia di Firenze). Collaboro con lo studio RGR dal 2019.",
+      "quote": "Mi piace l’arte in ogni sua forma, mi interessa da sempre il settore del restauro e del recupero del patrimonio edilizio esistente, la valorizzazione del patrimonio culturale e l’uso delle nuove tecnologie per l’architettura come il Building Information Modeling.",
+      "slug": "noemi-valdambrini",
+      "photo": null
+    }
+  ],
+  "press": [
+    {
+      "title": "Le Dimore di Via Arena",
+      "excerpt": "Nei giorni scorsi sono state svelate Le Dimore di Via Arena, un progetto firmato dagli architetti Maurizio Zambelli e Barbara Radici, e promosso da Immobiliare Percassi...",
+      "url": "https://www.arketipomagazine.it/le-dimore-di-via-arena-maurizio-zambelli-e-barbara-radici-bergamo/",
+      "source": "arketipomagazine.it",
+      "image": {
+        "src": "/img/stampa/articolo-1.webp",
+        "w": 696,
+        "h": 464
+      }
+    },
+    {
+      "title": "Le Dimore di Via Arena",
+      "excerpt": "In Città Alta, un sapiente intervento organico, architettonico, ingegneristico e archeologico, ha permesso il recupero e il restauro di due edifici storici vincolati, le cui fondamenta risalgono al Duecento...",
+      "url": "https://www.internimagazine.it/interior/case/dimore-via-arena-bergamo/",
+      "source": "internimagazine.it",
+      "image": {
+        "src": "/img/stampa/articolo-2.webp",
+        "w": 420,
+        "h": 280
+      }
+    },
+    {
+      "title": "Recupero Unità immobiliare",
+      "excerpt": "Si tratta di un recupero di unità immobiliare, disposta su due piani, all'interno di un edificio di pregio storico, a Bergamo Alta. L'intervento compendia una serie di opere...",
+      "url": "https://divisare.com/projects/253322-barbara-radici-recupero-di-unita-immobiliare-all-interno-di-una-prestigiosa-dimora-storica-in-bergamo-alta",
+      "source": "divisare.com",
+      "image": {
+        "src": "/img/stampa/articolo-3.webp",
+        "w": 800,
+        "h": 533
+      }
+    }
+  ],
+  "pressPages": [
+    {
+      "slug": "casa-di-montagna",
+      "oldPath": "/casa-di-montagna",
+      "title": "Case di Montagna",
+      "excerpt": "In una villa di nuova realizzazione, gli spazi sono ricchi di scorci suggestivi, grazie...",
+      "cover": {
+        "src": "/img/stampa/casa-di-montagna/copertina.webp",
+        "w": 330,
+        "h": 118
+      },
+      "scans": [
+        {
+          "src": "/img/stampa/casa-di-montagna/pagina-01.webp",
+          "w": 1290,
+          "h": 1800,
+          "tw": 430,
+          "thumb": "/img/stampa/casa-di-montagna/pagina-01-t.webp"
+        },
+        {
+          "src": "/img/stampa/casa-di-montagna/pagina-02.webp",
+          "w": 1290,
+          "h": 1800,
+          "tw": 430,
+          "thumb": "/img/stampa/casa-di-montagna/pagina-02-t.webp"
+        },
+        {
+          "src": "/img/stampa/casa-di-montagna/pagina-03.webp",
+          "w": 1290,
+          "h": 1800,
+          "tw": 430,
+          "thumb": "/img/stampa/casa-di-montagna/pagina-03-t.webp"
+        },
+        {
+          "src": "/img/stampa/casa-di-montagna/pagina-04.webp",
+          "w": 1290,
+          "h": 1800,
+          "tw": 430,
+          "thumb": "/img/stampa/casa-di-montagna/pagina-04-t.webp"
+        },
+        {
+          "src": "/img/stampa/casa-di-montagna/pagina-05.webp",
+          "w": 1290,
+          "h": 1800,
+          "tw": 430,
+          "thumb": "/img/stampa/casa-di-montagna/pagina-05-t.webp"
+        },
+        {
+          "src": "/img/stampa/casa-di-montagna/pagina-06.webp",
+          "w": 1290,
+          "h": 1800,
+          "tw": 430,
+          "thumb": "/img/stampa/casa-di-montagna/pagina-06-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "impresa-edile",
+      "oldPath": "/impresa-edile",
+      "title": "Imprese Edili",
+      "excerpt": "Intervento su un immobile storico vincolato nel cuore di Bergamo Alta che ha permesso la creazione di 17...",
+      "cover": {
+        "src": "/img/stampa/impresa-edile/copertina.webp",
+        "w": 330,
+        "h": 118
+      },
+      "scans": [
+        {
+          "src": "/img/stampa/impresa-edile/pagina-01.webp",
+          "w": 1290,
+          "h": 1800,
+          "tw": 430,
+          "thumb": "/img/stampa/impresa-edile/pagina-01-t.webp"
+        },
+        {
+          "src": "/img/stampa/impresa-edile/pagina-02.webp",
+          "w": 1290,
+          "h": 1800,
+          "tw": 430,
+          "thumb": "/img/stampa/impresa-edile/pagina-02-t.webp"
+        },
+        {
+          "src": "/img/stampa/impresa-edile/pagina-03.webp",
+          "w": 1290,
+          "h": 1800,
+          "tw": 430,
+          "thumb": "/img/stampa/impresa-edile/pagina-03-t.webp"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "slug": "residenziale",
+      "oldPath": "/progetti-residenziali",
+      "title": "Residenziale",
+      "header": {
+        "src": "/img/progetti/categoria-residenziale.webp",
+        "w": 1920,
+        "h": 500,
+        "tw": 900,
+        "thumb": "/img/progetti/categoria-residenziale-t.webp"
+      },
+      "projects": [
+        "attico-a-milano-2022",
+        "villetta-a-schiera-2021",
+        "villa-bioedilizia-gorle-2020",
+        "le-dimore-di-via-arena-in-citta-alta-2020",
+        "loft-a-bergamo-2018",
+        "recupero-sottotetto-a-milano-2018",
+        "recupero-sottotetto-a-cavalese-tn-2017",
+        "villa-a-chignolo-disola-bg-2016",
+        "appartamento-in-citta-alta-2015",
+        "via-porta-dipinta-bergamo-2015",
+        "villa-a-valsanzibio-pd-2014",
+        "casa-sui-colli-bergamo-2014",
+        "corti-storiche-a-cornate-dadda-mi-2013",
+        "villa-bifamiliare-castione-della-presolana-2012",
+        "palazzo-calepio-2012",
+        "recupero-fienile-e-cascina-bg-2011",
+        "casa-di-campagna-a-casteggio-pv-2011",
+        "appartamenti-a-scanzorosciate-bg-2010",
+        "villa-castione-della-presolana-2009",
+        "casa-marca-bergamo-2009",
+        "appartamento-a-roma-2008",
+        "casa-sul-parco-bg-2008",
+        "via-porta-dipinta-27-bg-2008",
+        "villetta-monterotondo-marittimo-gr-2007",
+        "villa-la-randa-forte-dei-marmi-2006",
+        "condominio-a-treviolo-bg-2005",
+        "ristrutturazione-condominio-a-seriate-2004"
+      ]
+    },
+    {
+      "slug": "interior-design",
+      "oldPath": "/progetti-interior-design",
+      "title": "Interior Design",
+      "header": {
+        "src": "/img/progetti/categoria-interior-design.webp",
+        "w": 1920,
+        "h": 500,
+        "tw": 900,
+        "thumb": "/img/progetti/categoria-interior-design-t.webp"
+      },
+      "projects": [
+        "outdoor-da-vittorio-2022",
+        "appartamento-a-madonna-di-campiglio-2021",
+        "villetta-a-bergamo-2021",
+        "appartamento-a-santa-margherita-2020",
+        "arredo-casa-d-2017",
+        "recupero-appartamento-a-bg-2017",
+        "palazzo-calepio-2012-interior-design"
+      ]
+    },
+    {
+      "slug": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione",
+      "title": "Commerciale",
+      "header": {
+        "src": "/img/progetti/categoria-commerciale.webp",
+        "w": 1920,
+        "h": 350,
+        "tw": 900,
+        "thumb": "/img/progetti/categoria-commerciale-t.webp"
+      },
+      "projects": [
+        "arredo-ristorante-bg-2021",
+        "uffici-unigel-2020",
+        "ristobio-self-service-alzano-bg-2020",
+        "bistrot-vicook-villa-reale-2020",
+        "mensa-aziendale-faster-2019",
+        "mensa-aziendale-ire-omba-2018",
+        "uffici-via-locatelli-2018",
+        "radicifill-2017",
+        "lucca-engraving-uffici-lu-2017",
+        "pasticceria-morlacchi-bg-2016",
+        "guest-house-2014",
+        "negozio-bici-2013",
+        "uffici-crotti-2012",
+        "uffici-via-frizzoni-2009"
+      ]
+    },
+    {
+      "slug": "industriale",
+      "oldPath": "/progetti-industriali-rgr",
+      "title": "Industriale",
+      "header": {
+        "src": "/img/progetti/categoria-industriale.webp",
+        "w": 1920,
+        "h": 500,
+        "tw": 900,
+        "thumb": "/img/progetti/categoria-industriale-t.webp"
+      },
+      "projects": [
+        "cementeria-padova-2008",
+        "sito-industriale-produzione-alta-moda-serbia-2019"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "attico-a-milano-2022",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2022-attico-a-milano",
+      "year": 2022,
+      "title": "ATTICO A MILANO",
+      "shortTitle": "ATTICO A MILANO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/attico-a-milano-2022/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/attico-a-milano-2022/01.webp",
+          "w": 1600,
+          "h": 1279,
+          "tw": 720,
+          "thumb": "/img/progetti/attico-a-milano-2022/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/attico-a-milano-2022/02.webp",
+          "w": 1600,
+          "h": 1243,
+          "tw": 720,
+          "thumb": "/img/progetti/attico-a-milano-2022/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/attico-a-milano-2022/03.webp",
+          "w": 923,
+          "h": 700,
+          "tw": 720,
+          "thumb": "/img/progetti/attico-a-milano-2022/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/attico-a-milano-2022/04.webp",
+          "w": 1360,
+          "h": 920,
+          "tw": 720,
+          "thumb": "/img/progetti/attico-a-milano-2022/04-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "villetta-a-schiera-2021",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2021-villettaaschieragorle",
+      "year": 2021,
+      "title": "VILLETTA A SCHIERA",
+      "shortTitle": "RISTRUTTURAZIONE E EFFICIENTAMENTO ENERGETICO VILLETTA A SCHIERA",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/villetta-a-schiera-2021/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/01.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/02.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/03.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/04.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/05.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/06.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/07.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/08.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/09.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/10.webp",
+          "w": 1360,
+          "h": 1020,
+          "tw": 720,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/10-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/11.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/11-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-schiera-2021/12.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-a-schiera-2021/12-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "villa-bioedilizia-gorle-2020",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/bioedilizia-a-gorle",
+      "year": 2020,
+      "title": "VILLA BIOEDILIZIA GORLE",
+      "shortTitle": "VILLA BIOEDILIZIA GORLE",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/villa-bioedilizia-gorle-2020/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/01.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/02.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/03.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/04.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/05.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/06.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/07.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/08.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/09.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/10.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/10-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/11.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/11-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/12.webp",
+          "w": 1600,
+          "h": 778,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/12-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/13.webp",
+          "w": 599,
+          "h": 1232,
+          "tw": 350,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/13-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-bioedilizia-gorle-2020/14.webp",
+          "w": 599,
+          "h": 1232,
+          "tw": 350,
+          "thumb": "/img/progetti/villa-bioedilizia-gorle-2020/14-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "le-dimore-di-via-arena-in-citta-alta-2020",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/le-dimore",
+      "year": 2020,
+      "title": "LE DIMORE DI VIA ARENA IN CITTA ALTA",
+      "shortTitle": "LE DIMORE DI VIA ARENA",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/01.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/02.webp",
+          "w": 1600,
+          "h": 1600,
+          "tw": 720,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/03.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/04.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/05.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/06.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/07.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/08.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/09.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/10.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/10-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/11.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/11-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/12.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/12-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/13.webp",
+          "w": 1600,
+          "h": 800,
+          "tw": 720,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/13-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/14.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/14-t.webp"
+        },
+        {
+          "src": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/15.webp",
+          "w": 1600,
+          "h": 800,
+          "tw": 720,
+          "thumb": "/img/progetti/le-dimore-di-via-arena-in-citta-alta-2020/15-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "loft-a-bergamo-2018",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2018-loft-a-bergamo",
+      "year": 2018,
+      "title": "LOFT A BERGAMO",
+      "shortTitle": "LOFT A BERGAMO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/loft-a-bergamo-2018/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/01.webp",
+          "w": 1417,
+          "h": 986,
+          "tw": 720,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/02.webp",
+          "w": 1050,
+          "h": 1584,
+          "tw": 477,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/03.webp",
+          "w": 1012,
+          "h": 1584,
+          "tw": 460,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/04.webp",
+          "w": 1032,
+          "h": 1576,
+          "tw": 471,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/05.webp",
+          "w": 1150,
+          "h": 730,
+          "tw": 720,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/06.webp",
+          "w": 1144,
+          "h": 742,
+          "tw": 720,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/07.webp",
+          "w": 1535,
+          "h": 999,
+          "tw": 720,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/08.webp",
+          "w": 1417,
+          "h": 891,
+          "tw": 720,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/09.webp",
+          "w": 1417,
+          "h": 981,
+          "tw": 720,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/10.webp",
+          "w": 1417,
+          "h": 939,
+          "tw": 720,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/10-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/11.webp",
+          "w": 1031,
+          "h": 1600,
+          "tw": 464,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/11-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/12.webp",
+          "w": 1055,
+          "h": 1600,
+          "tw": 475,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/12-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/13.webp",
+          "w": 1600,
+          "h": 1050,
+          "tw": 720,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/13-t.webp"
+        },
+        {
+          "src": "/img/progetti/loft-a-bergamo-2018/14.webp",
+          "w": 1417,
+          "h": 911,
+          "tw": 720,
+          "thumb": "/img/progetti/loft-a-bergamo-2018/14-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "recupero-sottotetto-a-milano-2018",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/recupero",
+      "year": 2018,
+      "title": "RECUPERO SOTTOTETTO A MILANO",
+      "shortTitle": "RECUPERO SOTTOTETTO A MILANO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/recupero-sottotetto-a-milano-2018/copertina.webp",
+        "w": 500,
+        "h": 500
+      },
+      "images": [
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/01.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/02.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/03.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/04.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/05.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/06.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/07.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/08.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/09.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/10.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/10-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/11.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/11-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/12.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/12-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/13.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/13-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/14.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/14-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/15.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/15-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-milano-2018/16.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/recupero-sottotetto-a-milano-2018/16-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "recupero-sottotetto-a-cavalese-tn-2017",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2017-recupero-sottotetto-a-cavalese-tn",
+      "year": 2017,
+      "title": "RECUPERO SOTTOTETTO A CAVALESE (TN)",
+      "shortTitle": "REC. SOTTOTETTO CAVALESE",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/recupero-sottotetto-a-cavalese-tn-2017/copertina.webp",
+        "w": 500,
+        "h": 500
+      },
+      "images": [
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-cavalese-tn-2017/01.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/recupero-sottotetto-a-cavalese-tn-2017/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-sottotetto-a-cavalese-tn-2017/02.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/recupero-sottotetto-a-cavalese-tn-2017/02-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "villa-a-chignolo-disola-bg-2016",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2016-villa-a-chignolo-d-isola-bg",
+      "year": 2016,
+      "title": "VILLA A CHIGNOLO D_ISOLA (BG)",
+      "shortTitle": "VILLA A CHIGNOLO D'ISOLA (BG)",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/villa-a-chignolo-disola-bg-2016/copertina.webp",
+        "w": 500,
+        "h": 500
+      },
+      "images": [
+        {
+          "src": "/img/progetti/villa-a-chignolo-disola-bg-2016/01.webp",
+          "w": 1600,
+          "h": 900,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-a-chignolo-disola-bg-2016/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-a-chignolo-disola-bg-2016/02.webp",
+          "w": 960,
+          "h": 1600,
+          "tw": 432,
+          "thumb": "/img/progetti/villa-a-chignolo-disola-bg-2016/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-a-chignolo-disola-bg-2016/03.webp",
+          "w": 1600,
+          "h": 817,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-a-chignolo-disola-bg-2016/03-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "appartamento-in-citta-alta-2015",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/villa-in-citta-alta",
+      "year": 2015,
+      "title": "APPARTAMENTO IN CITTA' ALTA",
+      "shortTitle": "APPARTAMENTO IN CITTA' ALTA",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/appartamento-in-citta-alta-2015/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/appartamento-in-citta-alta-2015/01.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-in-citta-alta-2015/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-in-citta-alta-2015/02.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-in-citta-alta-2015/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-in-citta-alta-2015/03.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/appartamento-in-citta-alta-2015/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-in-citta-alta-2015/04.webp",
+          "w": 980,
+          "h": 1600,
+          "tw": 441,
+          "thumb": "/img/progetti/appartamento-in-citta-alta-2015/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-in-citta-alta-2015/05.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-in-citta-alta-2015/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-in-citta-alta-2015/06.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-in-citta-alta-2015/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-in-citta-alta-2015/07.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/appartamento-in-citta-alta-2015/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-in-citta-alta-2015/08.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/appartamento-in-citta-alta-2015/08-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "via-porta-dipinta-bergamo-2015",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2015-via-porta-dipinta-bergamo",
+      "year": 2015,
+      "title": "VIA PORTA DIPINTA BERGAMO",
+      "shortTitle": "VIA PORTA DIPINTA BERGAMO 25",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/via-porta-dipinta-bergamo-2015/copertina.webp",
+        "w": 500,
+        "h": 500
+      },
+      "images": [
+        {
+          "src": "/img/progetti/via-porta-dipinta-bergamo-2015/01.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/via-porta-dipinta-bergamo-2015/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/via-porta-dipinta-bergamo-2015/02.webp",
+          "w": 1600,
+          "h": 773,
+          "tw": 720,
+          "thumb": "/img/progetti/via-porta-dipinta-bergamo-2015/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/via-porta-dipinta-bergamo-2015/03.webp",
+          "w": 1600,
+          "h": 934,
+          "tw": 720,
+          "thumb": "/img/progetti/via-porta-dipinta-bergamo-2015/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/via-porta-dipinta-bergamo-2015/04.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/via-porta-dipinta-bergamo-2015/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/via-porta-dipinta-bergamo-2015/05.webp",
+          "w": 1156,
+          "h": 771,
+          "tw": 720,
+          "thumb": "/img/progetti/via-porta-dipinta-bergamo-2015/05-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "villa-a-valsanzibio-pd-2014",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/villa-a-valsanzibio",
+      "year": 2014,
+      "title": "VILLA A VALSANZIBIO (PD)",
+      "shortTitle": "VILLA A VALSANZIBIO (PD)",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/villa-a-valsanzibio-pd-2014/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/villa-a-valsanzibio-pd-2014/01.webp",
+          "w": 1024,
+          "h": 768,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-a-valsanzibio-pd-2014/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-a-valsanzibio-pd-2014/02.webp",
+          "w": 1336,
+          "h": 1600,
+          "tw": 601,
+          "thumb": "/img/progetti/villa-a-valsanzibio-pd-2014/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-a-valsanzibio-pd-2014/03.webp",
+          "w": 640,
+          "h": 480,
+          "tw": 640,
+          "thumb": "/img/progetti/villa-a-valsanzibio-pd-2014/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-a-valsanzibio-pd-2014/04.webp",
+          "w": 1024,
+          "h": 768,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-a-valsanzibio-pd-2014/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-a-valsanzibio-pd-2014/05.webp",
+          "w": 962,
+          "h": 768,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-a-valsanzibio-pd-2014/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-a-valsanzibio-pd-2014/06.webp",
+          "w": 1024,
+          "h": 768,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-a-valsanzibio-pd-2014/06-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "casa-sui-colli-bergamo-2014",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/casa-colli-bergamo",
+      "year": 2014,
+      "title": "CASA SUI COLLI BERGAMO",
+      "shortTitle": "CASA SUI COLLI BERGAMO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/casa-sui-colli-bergamo-2014/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/casa-sui-colli-bergamo-2014/01.webp",
+          "w": 1600,
+          "h": 1028,
+          "tw": 720,
+          "thumb": "/img/progetti/casa-sui-colli-bergamo-2014/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-sui-colli-bergamo-2014/02.webp",
+          "w": 946,
+          "h": 1600,
+          "tw": 426,
+          "thumb": "/img/progetti/casa-sui-colli-bergamo-2014/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-sui-colli-bergamo-2014/03.webp",
+          "w": 1012,
+          "h": 1600,
+          "tw": 455,
+          "thumb": "/img/progetti/casa-sui-colli-bergamo-2014/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-sui-colli-bergamo-2014/04.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/casa-sui-colli-bergamo-2014/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-sui-colli-bergamo-2014/05.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/casa-sui-colli-bergamo-2014/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-sui-colli-bergamo-2014/06.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/casa-sui-colli-bergamo-2014/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-sui-colli-bergamo-2014/07.webp",
+          "w": 993,
+          "h": 1600,
+          "tw": 447,
+          "thumb": "/img/progetti/casa-sui-colli-bergamo-2014/07-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "corti-storiche-a-cornate-dadda-mi-2013",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2013-corti-storiche-a-cornate-d-adda-mi",
+      "year": 2013,
+      "title": "CORTI STORICHE A CORNATE D_ADDA (MI)",
+      "shortTitle": "CORTI A CORNATE D'ADDA",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/copertina.webp",
+        "w": 601,
+        "h": 601
+      },
+      "images": [
+        {
+          "src": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/01.webp",
+          "w": 1063,
+          "h": 768,
+          "tw": 720,
+          "thumb": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/02.webp",
+          "w": 886,
+          "h": 1269,
+          "tw": 503,
+          "thumb": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/03.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/04.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/05.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/06.webp",
+          "w": 886,
+          "h": 886,
+          "tw": 720,
+          "thumb": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/07.webp",
+          "w": 1002,
+          "h": 955,
+          "tw": 720,
+          "thumb": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/08.webp",
+          "w": 768,
+          "h": 1063,
+          "tw": 520,
+          "thumb": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/09.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/corti-storiche-a-cornate-dadda-mi-2013/09-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "villa-bifamiliare-castione-della-presolana-2012",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/villa-castione",
+      "year": 2012,
+      "title": "VILLA BIFAMILIARE CASTIONE DELLA PRESOLANA",
+      "shortTitle": "BIFAMILIARE C. DELLA PRESOLANA",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/villa-bifamiliare-castione-della-presolana-2012/copertina.webp",
+        "w": 500,
+        "h": 500
+      },
+      "images": [
+        {
+          "src": "/img/progetti/villa-bifamiliare-castione-della-presolana-2012/01.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-bifamiliare-castione-della-presolana-2012/01-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "palazzo-calepio-2012",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2012-palazzo-calepio",
+      "year": 2012,
+      "title": "PALAZZO CALEPIO",
+      "shortTitle": "PALAZZO CALEPIO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/palazzo-calepio-2012/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/palazzo-calepio-2012/01.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/palazzo-calepio-2012/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012/02.webp",
+          "w": 931,
+          "h": 1396,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012/03.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012/04.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012/05.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012/06.webp",
+          "w": 1600,
+          "h": 1068,
+          "tw": 720,
+          "thumb": "/img/progetti/palazzo-calepio-2012/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012/07.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012/08.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/palazzo-calepio-2012/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012/09.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012/10.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012/10-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "recupero-fienile-e-cascina-bg-2011",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/fienile",
+      "year": 2011,
+      "title": "RECUPERO FIENILE E CASCINA (BG)",
+      "shortTitle": "RECUPERO FIENILE E CASCINA",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/recupero-fienile-e-cascina-bg-2011/copertina.webp",
+        "w": 500,
+        "h": 500
+      },
+      "images": [
+        {
+          "src": "/img/progetti/recupero-fienile-e-cascina-bg-2011/01.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/recupero-fienile-e-cascina-bg-2011/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-fienile-e-cascina-bg-2011/02.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/recupero-fienile-e-cascina-bg-2011/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-fienile-e-cascina-bg-2011/03.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/recupero-fienile-e-cascina-bg-2011/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-fienile-e-cascina-bg-2011/04.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/recupero-fienile-e-cascina-bg-2011/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-fienile-e-cascina-bg-2011/05.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/recupero-fienile-e-cascina-bg-2011/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-fienile-e-cascina-bg-2011/06.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/recupero-fienile-e-cascina-bg-2011/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-fienile-e-cascina-bg-2011/07.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/recupero-fienile-e-cascina-bg-2011/07-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "casa-di-campagna-a-casteggio-pv-2011",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2011-casa-di-campagna-a-casteggio-pv",
+      "year": 2011,
+      "title": "CASA DI CAMPAGNA A CASTEGGIO (PV)",
+      "shortTitle": "CASA CAMPAGNA CASTEGGIO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/01.webp",
+          "w": 640,
+          "h": 480,
+          "tw": 640,
+          "thumb": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/02.webp",
+          "w": 640,
+          "h": 480,
+          "tw": 640,
+          "thumb": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/03.webp",
+          "w": 640,
+          "h": 480,
+          "tw": 640,
+          "thumb": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/04.webp",
+          "w": 640,
+          "h": 480,
+          "tw": 640,
+          "thumb": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/05.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/casa-di-campagna-a-casteggio-pv-2011/05-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "appartamenti-a-scanzorosciate-bg-2010",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/villa-a-scanzorosciate",
+      "year": 2010,
+      "title": "APPARTAMENTI A SCANZOROSCIATE (BG)",
+      "shortTitle": "APT. A SCANZOROSCIATE (BG)",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/copertina.webp",
+        "w": 763,
+        "h": 763
+      },
+      "images": [
+        {
+          "src": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/01.webp",
+          "w": 1302,
+          "h": 1048,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/02.webp",
+          "w": 907,
+          "h": 1360,
+          "tw": 480,
+          "thumb": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/03.webp",
+          "w": 1044,
+          "h": 1550,
+          "tw": 485,
+          "thumb": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/04.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/05.webp",
+          "w": 1558,
+          "h": 938,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/06.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/07.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/appartamenti-a-scanzorosciate-bg-2010/07-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "villa-castione-della-presolana-2009",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2009-villa-castione-della-presolana",
+      "year": 2009,
+      "title": "VILLA CASTIONE DELLA PRESOLANA",
+      "shortTitle": "VILLA CASTIONE DELLA PRESOLANA",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/villa-castione-della-presolana-2009/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/villa-castione-della-presolana-2009/01.webp",
+          "w": 1360,
+          "h": 1019,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-castione-della-presolana-2009/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-castione-della-presolana-2009/02.webp",
+          "w": 1050,
+          "h": 1600,
+          "tw": 473,
+          "thumb": "/img/progetti/villa-castione-della-presolana-2009/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-castione-della-presolana-2009/03.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-castione-della-presolana-2009/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-castione-della-presolana-2009/04.webp",
+          "w": 1248,
+          "h": 1600,
+          "tw": 562,
+          "thumb": "/img/progetti/villa-castione-della-presolana-2009/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-castione-della-presolana-2009/05.webp",
+          "w": 1360,
+          "h": 1029,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-castione-della-presolana-2009/05-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "casa-marca-bergamo-2009",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/casa-marca",
+      "year": 2009,
+      "title": "CASA MARCA BERGAMO",
+      "shortTitle": "CASA MARCA BERGAMO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/casa-marca-bergamo-2009/copertina.webp",
+        "w": 399,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/casa-marca-bergamo-2009/01.webp",
+          "w": 850,
+          "h": 1277,
+          "tw": 479,
+          "thumb": "/img/progetti/casa-marca-bergamo-2009/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-marca-bergamo-2009/02.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/casa-marca-bergamo-2009/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-marca-bergamo-2009/03.webp",
+          "w": 850,
+          "h": 1277,
+          "tw": 479,
+          "thumb": "/img/progetti/casa-marca-bergamo-2009/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-marca-bergamo-2009/04.webp",
+          "w": 850,
+          "h": 1277,
+          "tw": 479,
+          "thumb": "/img/progetti/casa-marca-bergamo-2009/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-marca-bergamo-2009/05.webp",
+          "w": 850,
+          "h": 1277,
+          "tw": 479,
+          "thumb": "/img/progetti/casa-marca-bergamo-2009/05-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "appartamento-a-roma-2008",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/appartamento-roma",
+      "year": 2008,
+      "title": "APPARTAMENTO A ROMA",
+      "shortTitle": "APPARTAMENTO A ROMA",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/appartamento-a-roma-2008/copertina.webp",
+        "w": 1000,
+        "h": 1000
+      },
+      "images": [
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/01.webp",
+          "w": 1600,
+          "h": 982,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/02.webp",
+          "w": 1600,
+          "h": 1014,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/03.webp",
+          "w": 1600,
+          "h": 1040,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/04.webp",
+          "w": 1600,
+          "h": 1233,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/05.webp",
+          "w": 1063,
+          "h": 1600,
+          "tw": 478,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/06.webp",
+          "w": 1177,
+          "h": 1600,
+          "tw": 530,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/07.webp",
+          "w": 1600,
+          "h": 1005,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/08.webp",
+          "w": 1600,
+          "h": 1059,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/09.webp",
+          "w": 1600,
+          "h": 1012,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/10.webp",
+          "w": 1600,
+          "h": 1024,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/10-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-roma-2008/11.webp",
+          "w": 1360,
+          "h": 904,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-roma-2008/11-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "casa-sul-parco-bg-2008",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/casa-sul-parco",
+      "year": 2008,
+      "title": "CASA SUL PARCO (BG)",
+      "shortTitle": "CASA SUL PARCO (BG)",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/casa-sul-parco-bg-2008/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/casa-sul-parco-bg-2008/01.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/casa-sul-parco-bg-2008/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-sul-parco-bg-2008/02.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/casa-sul-parco-bg-2008/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-sul-parco-bg-2008/03.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/casa-sul-parco-bg-2008/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/casa-sul-parco-bg-2008/04.webp",
+          "w": 907,
+          "h": 1360,
+          "tw": 480,
+          "thumb": "/img/progetti/casa-sul-parco-bg-2008/04-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "via-porta-dipinta-27-bg-2008",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/2008-via-porta-dipinta-27-bg",
+      "year": 2008,
+      "title": "VIA PORTA DIPINTA 27 (BG)",
+      "shortTitle": "VIA PORTA DIPINTA 27 (BG)",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/via-porta-dipinta-27-bg-2008/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/via-porta-dipinta-27-bg-2008/01.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/via-porta-dipinta-27-bg-2008/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/via-porta-dipinta-27-bg-2008/02.webp",
+          "w": 1070,
+          "h": 1600,
+          "tw": 482,
+          "thumb": "/img/progetti/via-porta-dipinta-27-bg-2008/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/via-porta-dipinta-27-bg-2008/03.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/via-porta-dipinta-27-bg-2008/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/via-porta-dipinta-27-bg-2008/04.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/via-porta-dipinta-27-bg-2008/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/via-porta-dipinta-27-bg-2008/05.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/via-porta-dipinta-27-bg-2008/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/via-porta-dipinta-27-bg-2008/06.webp",
+          "w": 1096,
+          "h": 1600,
+          "tw": 493,
+          "thumb": "/img/progetti/via-porta-dipinta-27-bg-2008/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/via-porta-dipinta-27-bg-2008/07.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/via-porta-dipinta-27-bg-2008/07-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "villetta-monterotondo-marittimo-gr-2007",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/villetta",
+      "year": 2007,
+      "title": "VILLETTA MONTEROTONDO MARITTIMO (GR)",
+      "shortTitle": "MONTEROTONDO MARITTIMO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/villetta-monterotondo-marittimo-gr-2007/copertina.webp",
+        "w": 1000,
+        "h": 1000
+      },
+      "images": [
+        {
+          "src": "/img/progetti/villetta-monterotondo-marittimo-gr-2007/01.webp",
+          "w": 1600,
+          "h": 864,
+          "tw": 720,
+          "thumb": "/img/progetti/villetta-monterotondo-marittimo-gr-2007/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-monterotondo-marittimo-gr-2007/02.webp",
+          "w": 1600,
+          "h": 1201,
+          "tw": 720,
+          "thumb": "/img/progetti/villetta-monterotondo-marittimo-gr-2007/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-monterotondo-marittimo-gr-2007/03.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/villetta-monterotondo-marittimo-gr-2007/03-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "villa-la-randa-forte-dei-marmi-2006",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/villa-forte-dei-marmi",
+      "year": 2006,
+      "title": "VILLA LA RANDA FORTE DEI MARMI",
+      "shortTitle": "VILLA LA RANDA FORTE DEI MARMI",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/villa-la-randa-forte-dei-marmi-2006/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/villa-la-randa-forte-dei-marmi-2006/01.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-la-randa-forte-dei-marmi-2006/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-la-randa-forte-dei-marmi-2006/02.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-la-randa-forte-dei-marmi-2006/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-la-randa-forte-dei-marmi-2006/03.webp",
+          "w": 1360,
+          "h": 1020,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-la-randa-forte-dei-marmi-2006/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/villa-la-randa-forte-dei-marmi-2006/04.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/villa-la-randa-forte-dei-marmi-2006/04-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "condominio-a-treviolo-bg-2005",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/condominio-treviolo",
+      "year": 2005,
+      "title": "CONDOMINIO A TREVIOLO (BG)",
+      "shortTitle": "CONDOMINIO A TREVIOLO (BG)",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/condominio-a-treviolo-bg-2005/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/condominio-a-treviolo-bg-2005/01.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/condominio-a-treviolo-bg-2005/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/condominio-a-treviolo-bg-2005/02.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/condominio-a-treviolo-bg-2005/02-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "ristrutturazione-condominio-a-seriate-2004",
+      "category": "residenziale",
+      "oldPath": "/progetti-residenziali/condominio-seriate",
+      "year": 2004,
+      "title": "RISTRUTTURAZIONE CONDOMINIO A SERIATE",
+      "shortTitle": "CONDOMINIO SERIATE",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/01.webp",
+          "w": 1600,
+          "h": 988,
+          "tw": 720,
+          "thumb": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/02.webp",
+          "w": 1334,
+          "h": 1600,
+          "tw": 600,
+          "thumb": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/03.webp",
+          "w": 1600,
+          "h": 988,
+          "tw": 720,
+          "thumb": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/04.webp",
+          "w": 1600,
+          "h": 988,
+          "tw": 720,
+          "thumb": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/05.webp",
+          "w": 1600,
+          "h": 988,
+          "tw": 720,
+          "thumb": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/06.webp",
+          "w": 1600,
+          "h": 988,
+          "tw": 720,
+          "thumb": "/img/progetti/ristrutturazione-condominio-a-seriate-2004/06-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "outdoor-da-vittorio-2022",
+      "category": "interior-design",
+      "oldPath": "/progetti-interior-design/2022-outdoor-da-vittorio",
+      "year": 2022,
+      "title": "OUTDOOR DA VITTORIO",
+      "shortTitle": "OUTDOOR DA VITTORIO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/outdoor-da-vittorio-2022/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/outdoor-da-vittorio-2022/01.webp",
+          "w": 768,
+          "h": 1024,
+          "tw": 540,
+          "thumb": "/img/progetti/outdoor-da-vittorio-2022/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/outdoor-da-vittorio-2022/02.webp",
+          "w": 1020,
+          "h": 1360,
+          "tw": 540,
+          "thumb": "/img/progetti/outdoor-da-vittorio-2022/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/outdoor-da-vittorio-2022/03.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/outdoor-da-vittorio-2022/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/outdoor-da-vittorio-2022/04.webp",
+          "w": 768,
+          "h": 1024,
+          "tw": 540,
+          "thumb": "/img/progetti/outdoor-da-vittorio-2022/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/outdoor-da-vittorio-2022/05.webp",
+          "w": 1360,
+          "h": 1020,
+          "tw": 720,
+          "thumb": "/img/progetti/outdoor-da-vittorio-2022/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/outdoor-da-vittorio-2022/06.webp",
+          "w": 960,
+          "h": 720,
+          "tw": 720,
+          "thumb": "/img/progetti/outdoor-da-vittorio-2022/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/outdoor-da-vittorio-2022/07.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/outdoor-da-vittorio-2022/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/outdoor-da-vittorio-2022/08.webp",
+          "w": 867,
+          "h": 1156,
+          "tw": 540,
+          "thumb": "/img/progetti/outdoor-da-vittorio-2022/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/outdoor-da-vittorio-2022/09.webp",
+          "w": 737,
+          "h": 983,
+          "tw": 540,
+          "thumb": "/img/progetti/outdoor-da-vittorio-2022/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/outdoor-da-vittorio-2022/10.webp",
+          "w": 867,
+          "h": 1156,
+          "tw": 540,
+          "thumb": "/img/progetti/outdoor-da-vittorio-2022/10-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "appartamento-a-madonna-di-campiglio-2021",
+      "category": "interior-design",
+      "oldPath": "/progetti-interior-design/2021-appartamento-a-madonna-di-campiglio",
+      "year": 2021,
+      "title": "APPARTAMENTO A MADONNA DI CAMPIGLIO",
+      "shortTitle": "APT. MADONNA DI CAMPIGLIO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/01.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/02.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/03.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/04.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/05.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/06.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/appartamento-a-madonna-di-campiglio-2021/06-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "villetta-a-bergamo-2021",
+      "category": "interior-design",
+      "oldPath": "/progetti-interior-design/2021-villetta-a-bergamo",
+      "year": 2021,
+      "title": "VILLETTA A BERGAMO",
+      "shortTitle": "VILLETTA A BERGAMO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/villetta-a-bergamo-2021/copertina.webp",
+        "w": 544,
+        "h": 544
+      },
+      "images": [
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/01.webp",
+          "w": 1232,
+          "h": 599,
+          "tw": 720,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/02.webp",
+          "w": 1232,
+          "h": 599,
+          "tw": 720,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/03.webp",
+          "w": 599,
+          "h": 1232,
+          "tw": 350,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/04.webp",
+          "w": 599,
+          "h": 1232,
+          "tw": 350,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/05.webp",
+          "w": 1232,
+          "h": 599,
+          "tw": 720,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/06.webp",
+          "w": 599,
+          "h": 1232,
+          "tw": 350,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/07.webp",
+          "w": 1232,
+          "h": 599,
+          "tw": 720,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/08.webp",
+          "w": 599,
+          "h": 1232,
+          "tw": 350,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/09.webp",
+          "w": 599,
+          "h": 1232,
+          "tw": 350,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/10.webp",
+          "w": 599,
+          "h": 1232,
+          "tw": 350,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/10-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/11.webp",
+          "w": 599,
+          "h": 1232,
+          "tw": 350,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/11-t.webp"
+        },
+        {
+          "src": "/img/progetti/villetta-a-bergamo-2021/12.webp",
+          "w": 1232,
+          "h": 599,
+          "tw": 720,
+          "thumb": "/img/progetti/villetta-a-bergamo-2021/12-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "appartamento-a-santa-margherita-2020",
+      "category": "interior-design",
+      "oldPath": "/progetti-interior-design/2020-appartamento-a-santa-margherita",
+      "year": 2020,
+      "title": "APPARTAMENTO A SANTA MARGHERITA",
+      "shortTitle": "APPARTAMENTO A S. MARGHERITA",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/appartamento-a-santa-margherita-2020/copertina.webp",
+        "w": 615,
+        "h": 615
+      },
+      "images": [
+        {
+          "src": "/img/progetti/appartamento-a-santa-margherita-2020/01.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/appartamento-a-santa-margherita-2020/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-santa-margherita-2020/02.webp",
+          "w": 1600,
+          "h": 778,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-santa-margherita-2020/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-santa-margherita-2020/03.webp",
+          "w": 778,
+          "h": 1600,
+          "tw": 350,
+          "thumb": "/img/progetti/appartamento-a-santa-margherita-2020/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-santa-margherita-2020/04.webp",
+          "w": 1024,
+          "h": 768,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-santa-margherita-2020/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/appartamento-a-santa-margherita-2020/05.webp",
+          "w": 1024,
+          "h": 768,
+          "tw": 720,
+          "thumb": "/img/progetti/appartamento-a-santa-margherita-2020/05-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "arredo-casa-d-2017",
+      "category": "interior-design",
+      "oldPath": "/progetti-interior-design/arredo-casa",
+      "year": 2017,
+      "title": "ARREDO CASA D",
+      "shortTitle": "ARREDO CASA D",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/arredo-casa-d-2017/copertina.webp",
+        "w": 600,
+        "h": 600
+      },
+      "images": [
+        {
+          "src": "/img/progetti/arredo-casa-d-2017/01.webp",
+          "w": 1400,
+          "h": 1400,
+          "tw": 720,
+          "thumb": "/img/progetti/arredo-casa-d-2017/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/arredo-casa-d-2017/02.webp",
+          "w": 1400,
+          "h": 1400,
+          "tw": 720,
+          "thumb": "/img/progetti/arredo-casa-d-2017/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/arredo-casa-d-2017/03.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/arredo-casa-d-2017/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/arredo-casa-d-2017/04.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/arredo-casa-d-2017/04-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "recupero-appartamento-a-bg-2017",
+      "category": "interior-design",
+      "oldPath": "/progetti-interior-design/2017-recupero-appartamento-a-bg",
+      "year": 2017,
+      "title": "RECUPERO APPARTAMENTO A BG",
+      "shortTitle": "RECUPERO APPARTAMENTO BG",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/recupero-appartamento-a-bg-2017/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/recupero-appartamento-a-bg-2017/01.webp",
+          "w": 900,
+          "h": 1600,
+          "tw": 405,
+          "thumb": "/img/progetti/recupero-appartamento-a-bg-2017/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-appartamento-a-bg-2017/02.webp",
+          "w": 900,
+          "h": 1600,
+          "tw": 405,
+          "thumb": "/img/progetti/recupero-appartamento-a-bg-2017/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-appartamento-a-bg-2017/03.webp",
+          "w": 900,
+          "h": 1600,
+          "tw": 405,
+          "thumb": "/img/progetti/recupero-appartamento-a-bg-2017/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/recupero-appartamento-a-bg-2017/04.webp",
+          "w": 900,
+          "h": 1600,
+          "tw": 405,
+          "thumb": "/img/progetti/recupero-appartamento-a-bg-2017/04-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "palazzo-calepio-2012-interior-design",
+      "category": "interior-design",
+      "oldPath": "/progetti-interior-design/palazzo-calepio",
+      "year": 2012,
+      "title": "PALAZZO CALEPIO",
+      "shortTitle": "PALAZZO CALEPIO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/palazzo-calepio-2012-interior-design/copertina.webp",
+        "w": 600,
+        "h": 600
+      },
+      "images": [
+        {
+          "src": "/img/progetti/palazzo-calepio-2012-interior-design/01.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012-interior-design/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012-interior-design/02.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012-interior-design/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012-interior-design/03.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012-interior-design/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012-interior-design/04.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012-interior-design/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012-interior-design/05.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/palazzo-calepio-2012-interior-design/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012-interior-design/06.webp",
+          "w": 1600,
+          "h": 1068,
+          "tw": 720,
+          "thumb": "/img/progetti/palazzo-calepio-2012-interior-design/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012-interior-design/07.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/palazzo-calepio-2012-interior-design/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012-interior-design/08.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012-interior-design/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012-interior-design/09.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012-interior-design/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/palazzo-calepio-2012-interior-design/10.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/palazzo-calepio-2012-interior-design/10-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "arredo-ristorante-bg-2021",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/2021-arredo-ristorante-bg",
+      "year": 2021,
+      "title": "ARREDO RISTORANTE (BG)",
+      "shortTitle": "ARREDO RISTORANTE (BG)",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/arredo-ristorante-bg-2021/copertina.webp",
+        "w": 602,
+        "h": 602
+      },
+      "images": [
+        {
+          "src": "/img/progetti/arredo-ristorante-bg-2021/01.webp",
+          "w": 1232,
+          "h": 924,
+          "tw": 720,
+          "thumb": "/img/progetti/arredo-ristorante-bg-2021/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/arredo-ristorante-bg-2021/02.webp",
+          "w": 924,
+          "h": 1232,
+          "tw": 540,
+          "thumb": "/img/progetti/arredo-ristorante-bg-2021/02-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "uffici-unigel-2020",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/2020-uffici-unigel",
+      "year": 2020,
+      "title": "UFFICI UNIGEL",
+      "shortTitle": "UFFICI UNIGEL",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/uffici-unigel-2020/copertina.webp",
+        "w": 778,
+        "h": 778
+      },
+      "images": [
+        {
+          "src": "/img/progetti/uffici-unigel-2020/01.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/uffici-unigel-2020/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-unigel-2020/02.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/uffici-unigel-2020/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-unigel-2020/03.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/uffici-unigel-2020/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-unigel-2020/04.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/uffici-unigel-2020/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-unigel-2020/05.webp",
+          "w": 480,
+          "h": 640,
+          "tw": 480,
+          "thumb": "/img/progetti/uffici-unigel-2020/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-unigel-2020/06.webp",
+          "w": 480,
+          "h": 640,
+          "tw": 480,
+          "thumb": "/img/progetti/uffici-unigel-2020/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-unigel-2020/07.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/uffici-unigel-2020/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-unigel-2020/08.webp",
+          "w": 480,
+          "h": 640,
+          "tw": 480,
+          "thumb": "/img/progetti/uffici-unigel-2020/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-unigel-2020/09.webp",
+          "w": 480,
+          "h": 640,
+          "tw": 480,
+          "thumb": "/img/progetti/uffici-unigel-2020/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-unigel-2020/10.webp",
+          "w": 480,
+          "h": 640,
+          "tw": 480,
+          "thumb": "/img/progetti/uffici-unigel-2020/10-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "ristobio-self-service-alzano-bg-2020",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/risto-bio",
+      "year": 2020,
+      "title": "RISTOBIO SELF-SERVICE ALZANO (BG)",
+      "shortTitle": "RISTOBIO SELF-SERVICE ALZANO",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/ristobio-self-service-alzano-bg-2020/copertina.webp",
+        "w": 828,
+        "h": 828
+      },
+      "images": [
+        {
+          "src": "/img/progetti/ristobio-self-service-alzano-bg-2020/01.webp",
+          "w": 1600,
+          "h": 950,
+          "tw": 720,
+          "thumb": "/img/progetti/ristobio-self-service-alzano-bg-2020/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/ristobio-self-service-alzano-bg-2020/02.webp",
+          "w": 1600,
+          "h": 950,
+          "tw": 720,
+          "thumb": "/img/progetti/ristobio-self-service-alzano-bg-2020/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/ristobio-self-service-alzano-bg-2020/03.webp",
+          "w": 1600,
+          "h": 950,
+          "tw": 720,
+          "thumb": "/img/progetti/ristobio-self-service-alzano-bg-2020/03-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "bistrot-vicook-villa-reale-2020",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/2020-bistrot-vicook-villa-reale",
+      "year": 2020,
+      "title": "BISTROT VICOOK VILLA REALE",
+      "shortTitle": "BISTROT VICOOK VILLA REALE",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/bistrot-vicook-villa-reale-2020/copertina.webp",
+        "w": 500,
+        "h": 500
+      },
+      "images": [
+        {
+          "src": "/img/progetti/bistrot-vicook-villa-reale-2020/01.webp",
+          "w": 1183,
+          "h": 1600,
+          "tw": 532,
+          "thumb": "/img/progetti/bistrot-vicook-villa-reale-2020/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/bistrot-vicook-villa-reale-2020/02.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/bistrot-vicook-villa-reale-2020/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/bistrot-vicook-villa-reale-2020/03.webp",
+          "w": 1155,
+          "h": 1600,
+          "tw": 520,
+          "thumb": "/img/progetti/bistrot-vicook-villa-reale-2020/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/bistrot-vicook-villa-reale-2020/04.webp",
+          "w": 1360,
+          "h": 1020,
+          "tw": 720,
+          "thumb": "/img/progetti/bistrot-vicook-villa-reale-2020/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/bistrot-vicook-villa-reale-2020/05.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/bistrot-vicook-villa-reale-2020/05-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "mensa-aziendale-faster-2019",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/mensa-faster",
+      "year": 2019,
+      "title": "MENSA AZIENDALE FASTER",
+      "shortTitle": "MENSA AZIENDALE FASTER",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/mensa-aziendale-faster-2019/copertina.webp",
+        "w": 828,
+        "h": 828
+      },
+      "images": [
+        {
+          "src": "/img/progetti/mensa-aziendale-faster-2019/01.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/mensa-aziendale-faster-2019/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/mensa-aziendale-faster-2019/02.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/mensa-aziendale-faster-2019/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/mensa-aziendale-faster-2019/03.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/mensa-aziendale-faster-2019/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/mensa-aziendale-faster-2019/04.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/mensa-aziendale-faster-2019/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/mensa-aziendale-faster-2019/05.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/mensa-aziendale-faster-2019/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/mensa-aziendale-faster-2019/06.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/mensa-aziendale-faster-2019/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/mensa-aziendale-faster-2019/07.webp",
+          "w": 1133,
+          "h": 1600,
+          "tw": 510,
+          "thumb": "/img/progetti/mensa-aziendale-faster-2019/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/mensa-aziendale-faster-2019/08.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/mensa-aziendale-faster-2019/08-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "mensa-aziendale-ire-omba-2018",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/2018-mensa-aziendale-ire-omba",
+      "year": 2018,
+      "title": "MENSA AZIENDALE IRE OMBA",
+      "shortTitle": "MENSA AZIENDALE IRE OMBA",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/mensa-aziendale-ire-omba-2018/copertina.webp",
+        "w": 500,
+        "h": 500
+      },
+      "images": [
+        {
+          "src": "/img/progetti/mensa-aziendale-ire-omba-2018/01.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/mensa-aziendale-ire-omba-2018/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/mensa-aziendale-ire-omba-2018/02.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/mensa-aziendale-ire-omba-2018/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/mensa-aziendale-ire-omba-2018/03.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/mensa-aziendale-ire-omba-2018/03-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "uffici-via-locatelli-2018",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/2018-uffici-via-locatelli",
+      "year": 2018,
+      "title": "UFFICI VIA LOCATELLI",
+      "shortTitle": "UFFICI VIA LOCATELLI",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/uffici-via-locatelli-2018/copertina.webp",
+        "w": 400,
+        "h": 400
+      },
+      "images": [
+        {
+          "src": "/img/progetti/uffici-via-locatelli-2018/01.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/uffici-via-locatelli-2018/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-via-locatelli-2018/02.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/uffici-via-locatelli-2018/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-via-locatelli-2018/03.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/uffici-via-locatelli-2018/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-via-locatelli-2018/04.webp",
+          "w": 622,
+          "h": 640,
+          "tw": 622,
+          "thumb": "/img/progetti/uffici-via-locatelli-2018/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-via-locatelli-2018/05.webp",
+          "w": 480,
+          "h": 640,
+          "tw": 480,
+          "thumb": "/img/progetti/uffici-via-locatelli-2018/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-via-locatelli-2018/06.webp",
+          "w": 480,
+          "h": 640,
+          "tw": 480,
+          "thumb": "/img/progetti/uffici-via-locatelli-2018/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-via-locatelli-2018/07.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/uffici-via-locatelli-2018/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-via-locatelli-2018/08.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/uffici-via-locatelli-2018/08-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "radicifill-2017",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/2017-radicifill",
+      "year": 2017,
+      "title": "RADICIFILL",
+      "shortTitle": "RADICIFILL",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/radicifill-2017/copertina.webp",
+        "w": 866,
+        "h": 866
+      },
+      "images": [
+        {
+          "src": "/img/progetti/radicifill-2017/01.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/radicifill-2017/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/radicifill-2017/02.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/radicifill-2017/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/radicifill-2017/03.webp",
+          "w": 1133,
+          "h": 1600,
+          "tw": 510,
+          "thumb": "/img/progetti/radicifill-2017/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/radicifill-2017/04.webp",
+          "w": 1600,
+          "h": 1133,
+          "tw": 720,
+          "thumb": "/img/progetti/radicifill-2017/04-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "lucca-engraving-uffici-lu-2017",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/2017-lucca-engraving-uffici-lu",
+      "year": 2017,
+      "title": "LUCCA ENGRAVING UFFICI (LU)",
+      "shortTitle": "LUCCA ENGRAVING UFFICI (LU)",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/lucca-engraving-uffici-lu-2017/copertina.webp",
+        "w": 701,
+        "h": 701
+      },
+      "images": [
+        {
+          "src": "/img/progetti/lucca-engraving-uffici-lu-2017/01.webp",
+          "w": 1132,
+          "h": 1600,
+          "tw": 509,
+          "thumb": "/img/progetti/lucca-engraving-uffici-lu-2017/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/lucca-engraving-uffici-lu-2017/02.webp",
+          "w": 1600,
+          "h": 920,
+          "tw": 720,
+          "thumb": "/img/progetti/lucca-engraving-uffici-lu-2017/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/lucca-engraving-uffici-lu-2017/03.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/lucca-engraving-uffici-lu-2017/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/lucca-engraving-uffici-lu-2017/04.webp",
+          "w": 1132,
+          "h": 1600,
+          "tw": 509,
+          "thumb": "/img/progetti/lucca-engraving-uffici-lu-2017/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/lucca-engraving-uffici-lu-2017/05.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/lucca-engraving-uffici-lu-2017/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/lucca-engraving-uffici-lu-2017/06.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/lucca-engraving-uffici-lu-2017/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/lucca-engraving-uffici-lu-2017/07.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/lucca-engraving-uffici-lu-2017/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/lucca-engraving-uffici-lu-2017/08.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/lucca-engraving-uffici-lu-2017/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/lucca-engraving-uffici-lu-2017/09.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/lucca-engraving-uffici-lu-2017/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/lucca-engraving-uffici-lu-2017/10.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/lucca-engraving-uffici-lu-2017/10-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "pasticceria-morlacchi-bg-2016",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/pasticceria-morlacchi",
+      "year": 2016,
+      "title": "PASTICCERIA MORLACCHI (BG)",
+      "shortTitle": "PASTICCERIA MORLACCHI (BG)",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/pasticceria-morlacchi-bg-2016/copertina.webp",
+        "w": 600,
+        "h": 600
+      },
+      "images": [
+        {
+          "src": "/img/progetti/pasticceria-morlacchi-bg-2016/01.webp",
+          "w": 980,
+          "h": 735,
+          "tw": 720,
+          "thumb": "/img/progetti/pasticceria-morlacchi-bg-2016/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/pasticceria-morlacchi-bg-2016/02.webp",
+          "w": 980,
+          "h": 735,
+          "tw": 720,
+          "thumb": "/img/progetti/pasticceria-morlacchi-bg-2016/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/pasticceria-morlacchi-bg-2016/03.webp",
+          "w": 980,
+          "h": 735,
+          "tw": 720,
+          "thumb": "/img/progetti/pasticceria-morlacchi-bg-2016/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/pasticceria-morlacchi-bg-2016/04.webp",
+          "w": 980,
+          "h": 735,
+          "tw": 720,
+          "thumb": "/img/progetti/pasticceria-morlacchi-bg-2016/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/pasticceria-morlacchi-bg-2016/05.webp",
+          "w": 979,
+          "h": 734,
+          "tw": 720,
+          "thumb": "/img/progetti/pasticceria-morlacchi-bg-2016/05-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "guest-house-2014",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/guest-house",
+      "year": 2014,
+      "title": "GUEST HOUSE",
+      "shortTitle": "GUEST HOUSE",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/guest-house-2014/copertina.webp",
+        "w": 828,
+        "h": 828
+      },
+      "images": [
+        {
+          "src": "/img/progetti/guest-house-2014/01.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/guest-house-2014/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/guest-house-2014/02.webp",
+          "w": 1600,
+          "h": 1000,
+          "tw": 720,
+          "thumb": "/img/progetti/guest-house-2014/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/guest-house-2014/03.webp",
+          "w": 1600,
+          "h": 1132,
+          "tw": 720,
+          "thumb": "/img/progetti/guest-house-2014/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/guest-house-2014/04.webp",
+          "w": 1600,
+          "h": 1149,
+          "tw": 720,
+          "thumb": "/img/progetti/guest-house-2014/04-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "negozio-bici-2013",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/negozio-bici",
+      "year": 2013,
+      "title": "NEGOZIO BICI",
+      "shortTitle": "NEGOZIO BICI",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/negozio-bici-2013/copertina.webp",
+        "w": 828,
+        "h": 828
+      },
+      "images": [
+        {
+          "src": "/img/progetti/negozio-bici-2013/01.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/negozio-bici-2013/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/negozio-bici-2013/02.webp",
+          "w": 1600,
+          "h": 592,
+          "tw": 720,
+          "thumb": "/img/progetti/negozio-bici-2013/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/negozio-bici-2013/03.webp",
+          "w": 1600,
+          "h": 822,
+          "tw": 720,
+          "thumb": "/img/progetti/negozio-bici-2013/03-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "uffici-crotti-2012",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/uffici-crotti",
+      "year": 2012,
+      "title": "UFFICI CROTTI",
+      "shortTitle": "Uffici Crotti",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/uffici-crotti-2012/copertina.webp",
+        "w": 828,
+        "h": 828
+      },
+      "images": [
+        {
+          "src": "/img/progetti/uffici-crotti-2012/01.webp",
+          "w": 855,
+          "h": 1280,
+          "tw": 481,
+          "thumb": "/img/progetti/uffici-crotti-2012/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-crotti-2012/02.webp",
+          "w": 1280,
+          "h": 855,
+          "tw": 720,
+          "thumb": "/img/progetti/uffici-crotti-2012/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-crotti-2012/03.webp",
+          "w": 1280,
+          "h": 855,
+          "tw": 720,
+          "thumb": "/img/progetti/uffici-crotti-2012/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-crotti-2012/04.webp",
+          "w": 1280,
+          "h": 855,
+          "tw": 720,
+          "thumb": "/img/progetti/uffici-crotti-2012/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-crotti-2012/05.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/uffici-crotti-2012/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-crotti-2012/06.webp",
+          "w": 1280,
+          "h": 855,
+          "tw": 720,
+          "thumb": "/img/progetti/uffici-crotti-2012/06-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "uffici-via-frizzoni-2009",
+      "category": "commerciale",
+      "oldPath": "/progetti-commerciale-e-direzione/2009-uffici-via-frizzoni-bg",
+      "year": 2009,
+      "title": "UFFICI VIA FRIZZONI",
+      "shortTitle": "UFFICI VIA FRIZZONI",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/uffici-via-frizzoni-2009/copertina.webp",
+        "w": 850,
+        "h": 850
+      },
+      "images": [
+        {
+          "src": "/img/progetti/uffici-via-frizzoni-2009/01.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/uffici-via-frizzoni-2009/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-via-frizzoni-2009/02.webp",
+          "w": 1199,
+          "h": 1416,
+          "tw": 610,
+          "thumb": "/img/progetti/uffici-via-frizzoni-2009/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-via-frizzoni-2009/03.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/uffici-via-frizzoni-2009/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/uffici-via-frizzoni-2009/04.webp",
+          "w": 1200,
+          "h": 1600,
+          "tw": 540,
+          "thumb": "/img/progetti/uffici-via-frizzoni-2009/04-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "cementeria-padova-2008",
+      "category": "industriale",
+      "oldPath": "/progetti-industriali/cementeria-padova",
+      "year": 2008,
+      "title": "CEMENTERIA PADOVA",
+      "shortTitle": "Cementeria Padova",
+      "description": "",
+      "cover": {
+        "src": "/img/progetti/cementeria-padova-2008/copertina.webp",
+        "w": 900,
+        "h": 300
+      },
+      "images": [
+        {
+          "src": "/img/progetti/cementeria-padova-2008/01.webp",
+          "w": 1185,
+          "h": 844,
+          "tw": 720,
+          "thumb": "/img/progetti/cementeria-padova-2008/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/cementeria-padova-2008/02.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/cementeria-padova-2008/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/cementeria-padova-2008/03.webp",
+          "w": 1067,
+          "h": 1600,
+          "tw": 480,
+          "thumb": "/img/progetti/cementeria-padova-2008/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/cementeria-padova-2008/04.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/cementeria-padova-2008/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/cementeria-padova-2008/05.webp",
+          "w": 1600,
+          "h": 1067,
+          "tw": 720,
+          "thumb": "/img/progetti/cementeria-padova-2008/05-t.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sito-industriale-produzione-alta-moda-serbia-2019",
+      "category": "industriale",
+      "oldPath": "/progetti-industriali/serbia-produzione-industriale",
+      "year": 2019,
+      "title": "SITO INDUSTRIALE PRODUZIONE ALTA MODA - SERBIA",
+      "shortTitle": "Serbia Prod. Industriale",
+      "description": "",
+      "cover": null,
+      "images": [
+        {
+          "src": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/01.webp",
+          "w": 1600,
+          "h": 800,
+          "tw": 720,
+          "thumb": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/01-t.webp"
+        },
+        {
+          "src": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/02.webp",
+          "w": 1024,
+          "h": 559,
+          "tw": 720,
+          "thumb": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/02-t.webp"
+        },
+        {
+          "src": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/03.webp",
+          "w": 1024,
+          "h": 559,
+          "tw": 720,
+          "thumb": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/03-t.webp"
+        },
+        {
+          "src": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/04.webp",
+          "w": 1024,
+          "h": 558,
+          "tw": 720,
+          "thumb": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/04-t.webp"
+        },
+        {
+          "src": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/05.webp",
+          "w": 1024,
+          "h": 558,
+          "tw": 720,
+          "thumb": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/05-t.webp"
+        },
+        {
+          "src": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/06.webp",
+          "w": 1600,
+          "h": 800,
+          "tw": 720,
+          "thumb": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/06-t.webp"
+        },
+        {
+          "src": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/07.webp",
+          "w": 1600,
+          "h": 715,
+          "tw": 720,
+          "thumb": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/07-t.webp"
+        },
+        {
+          "src": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/08.webp",
+          "w": 1600,
+          "h": 1200,
+          "tw": 720,
+          "thumb": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/08-t.webp"
+        },
+        {
+          "src": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/09.webp",
+          "w": 1024,
+          "h": 559,
+          "tw": 720,
+          "thumb": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/09-t.webp"
+        },
+        {
+          "src": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/10.webp",
+          "w": 934,
+          "h": 681,
+          "tw": 720,
+          "thumb": "/img/progetti/sito-industriale-produzione-alta-moda-serbia-2019/10-t.webp"
+        }
+      ]
+    }
+  ]
+}
