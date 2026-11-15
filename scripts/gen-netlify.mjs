@@ -56,3 +56,19 @@ ${extra.join('\n')}
 `;
 fs.writeFileSync('netlify.toml', toml);
 console.log('redirect 301:', r.length + extra.length);
+
+// ---- sitemap.xml e robots.txt ----
+const SITE = 'https://www.rgrarchitetti.it';
+const services = ['progettazione', 'ristrutturazione-e-recupero', 'interior-design', 'direzione-lavori', 'consulenze'];
+const urls = [
+  '/', '/studio', '/servizi', ...services.map((s) => `/servizi/${s}`),
+  '/progetti', ...c.categories.map((x) => `/progetti/${x.slug}`),
+  ...c.projects.map((p) => `/progetti/${p.category}/${p.slug}`),
+  '/rassegna-stampa', ...c.pressPages.map((p) => `/rassegna-stampa/${p.slug}`),
+  '/contatti', '/privacy', '/cookie',
+];
+const today = new Date().toISOString().slice(0, 10);
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${SITE}${u}</loc><lastmod>${today}</lastmod></url>`).join('\n')}\n</urlset>\n`;
+fs.writeFileSync('public/sitemap.xml', sitemap);
+fs.writeFileSync('public/robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
+console.log('sitemap:', urls.length, 'indirizzi');

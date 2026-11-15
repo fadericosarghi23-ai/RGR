@@ -159,9 +159,8 @@ html.lenis body {
   }
   /* su mobile le etichette tecniche non scendono sotto i 12px, anche dove sono rimpicciolite */
   @media (max-width: 767px) {
-    .label-tech,
-    .label-tech * {
-      font-size: max(0.75rem, 1em) !important;
+    .label-tech {
+      font-size: 0.75rem !important;
       letter-spacing: 0.16em;
     }
   }

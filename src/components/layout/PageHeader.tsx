@@ -22,7 +22,7 @@ export function PageHeader({ kicker, title, lead, crumbs, children }: Props) {
           transition={{ duration: 1.6, ease: [0.65, 0, 0.35, 1], delay: 0.2 }}
         />
         <motion.line
-          x1="8%" y1="0" x2="8%" y2="100%"
+          x1="1.6%" y1="0" x2="1.6%" y2="100%"
           stroke="var(--rgr-grey)" strokeWidth="1"
           initial={{ pathLength: 0 }} animate={{ pathLength: 1 }}
           transition={{ duration: 1.6, ease: [0.65, 0, 0.35, 1], delay: 0.35 }}
