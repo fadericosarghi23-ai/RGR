@@ -9,7 +9,7 @@ export function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer className="relative overflow-hidden bg-rgr-footer text-white">
-      <div className="container-rgr pt-20 lg:pt-28">
+      <div className="container-rgr pt-16 lg:pt-20">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-6">
             <p className="label-tech !text-rgr-footer-link">Parliamo del Suo progetto</p>
@@ -87,7 +87,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-20 flex flex-col gap-6 border-t border-white/10 py-8 text-sm text-rgr-footer-link md:flex-row md:items-center md:justify-between">
+        <div className="mt-14 flex flex-col gap-6 border-t border-white/10 py-8 text-sm text-rgr-footer-link md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-5">
             <Logo className="w-[86px] opacity-90" />
             <span>© {year} RGR Architetti</span>

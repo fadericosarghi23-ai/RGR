@@ -5,7 +5,7 @@ import { SplitTitle } from '@/components/motion/SplitTitle';
 import { projects } from '@/data/content';
 import { gsap, prefersReducedMotion } from '@/lib/motion';
 
-const featured = [...projects].sort((a, b) => b.year - a.year).filter((p) => p.images.length >= 4).slice(0, 9);
+const featured = [...projects].sort((a, b) => b.year - a.year).filter((p) => p.images.length >= 4).slice(0, 6);
 
 function Intro({ className }: { className?: string }) {
   return (
@@ -39,7 +39,7 @@ export function ProjectsRail() {
       gsap.to(t, {
         x: () => -dist(),
         ease: 'none',
-        scrollTrigger: { trigger: section.current, start: 'top top', end: () => '+=' + dist(), pin: true, scrub: 0.6, invalidateOnRefresh: true, anticipatePin: 1 },
+        scrollTrigger: { trigger: section.current, start: 'top top', end: () => '+=' + dist() * 0.6, pin: true, scrub: 0.6, invalidateOnRefresh: true, anticipatePin: 1 },
       });
     });
     return () => mm.revert();
@@ -53,8 +53,8 @@ export function ProjectsRail() {
   };
 
   return (
-    <section ref={section} className="relative overflow-hidden bg-white py-20 lg:flex lg:h-[100svh] lg:items-center lg:py-0">
-      <Intro className="container-rgr mb-10 flex flex-col lg:hidden" />
+    <section ref={section} className="relative overflow-hidden bg-white py-14 lg:flex lg:h-[100svh] lg:items-center lg:py-0">
+      <Intro className="container-rgr mb-8 flex flex-col lg:hidden" />
       <div
         ref={track}
         onScroll={onScroll}

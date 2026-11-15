@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
-import { PageHeader } from '@/components/layout/PageHeader';
+import { HeroIntro } from '@/components/hero/HeroIntro';
 import { Seo } from '@/components/layout/Seo';
 import { Counter } from '@/components/motion/Counter';
 import { ParallaxImage } from '@/components/motion/Parallax';
@@ -30,7 +30,20 @@ export default function Studio() {
   return (
     <>
       <Seo title="Lo studio" description="RGR Architetti: Barbara Radici, Raffaella Guazzoni e Cristina Rovetta, architette laureate al Politecnico di Milano. Lo studio nasce a Bergamo nel 2003." />
-      <PageHeader kicker="Chi siamo" title={['Lo studio']} lead={site.intro} crumbs={[{ to: '/', label: 'Home' }]} />
+      {/* apertura: il logo che si disegna per sottrazione, con la frase guida dello studio */}
+      <HeroIntro title="Lo studio RGR Architetti" label="Chi siamo · Lo studio" cue="Scorra: le architette" />
+
+      <section className="pb-14 pt-4 lg:pb-20">
+        <div className="container-rgr grid gap-8 lg:grid-cols-12">
+          <div className="lg:col-span-4">
+            <p className="label-tech !text-primary">Chi siamo</p>
+            <SplitTitle lines={['Lo studio']} className="mt-4 text-[clamp(2.6rem,6vw,5.5rem)] font-bold uppercase" />
+          </div>
+          <Reveal className="lg:col-span-8 lg:pt-10">
+            <p className="font-display text-[clamp(1.35rem,2.4vw,2.1rem)] font-medium leading-snug text-rgr-black">{site.intro}</p>
+          </Reveal>
+        </div>
+      </section>
 
       {content.home.studioPhoto && (
         <div className="container-rgr">
@@ -92,20 +105,19 @@ export default function Studio() {
         </section>
       )}
 
-      <section className="bg-rgr-black py-24 text-white lg:py-32">
-        <div className="container-rgr text-center">
-          <blockquote className="mx-auto max-w-4xl font-display text-[clamp(1.5rem,3.2vw,2.75rem)] font-light leading-tight">
-            {site.quote.map((l) => (
-              <Reveal key={l} className="block">
-                {l}
-              </Reveal>
-            ))}
-            <footer className="label-tech mt-8 !text-primary">{site.quoteAuthor}</footer>
-          </blockquote>
-          <Reveal className="mt-12">
+      <section className="bg-rgr-black py-16 text-white lg:py-20">
+        <div className="container-rgr flex flex-col justify-between gap-8 md:flex-row md:items-center">
+          <Reveal>
+            <p className="label-tech !text-primary">Lo studio</p>
+            <p className="mt-3 font-display text-[clamp(1.5rem,3vw,2.5rem)] font-medium leading-tight">
+              {site.address.street}, {site.address.city}
+            </p>
+          </Reveal>
+          <Reveal delay={0.1} className="flex flex-wrap gap-3">
             <ButtonLink to="/progetti" variant="light">
               Guardi i progetti
             </ButtonLink>
+            <ButtonLink to="/contatti">Contatti</ButtonLink>
           </Reveal>
         </div>
       </section>

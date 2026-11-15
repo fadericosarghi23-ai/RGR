@@ -12,9 +12,10 @@ const RATIO = ELEV_W / ELEV_H;
 type Box = { w: number; h: number; x: number; y: number; contain: boolean };
 
 /**
- * HERO 2: la tavola. Allo scroll si disegna il prospetto della Casa di montagna in Valseriana
- * (ricalcato sulla foto reale): terra, struttura, falde, aperture, retini, contesto, quote.
- * Poi la linea rossa del logo diventa la scansione che trasforma il disegno nella foto.
+ * HERO della home: la tavola.
+ * All'apertura il prospetto della Casa di montagna in Valseriana (ricalcato sulla foto reale)
+ * si disegna da solo: terra, struttura, falde, aperture, retini, contesto, quote.
+ * Allo scroll la linea rossa del logo diventa la scansione che trasforma il disegno nella foto.
  */
 export function HeroSheet() {
   const section = useRef<HTMLElement>(null);
@@ -36,11 +37,11 @@ export function HeroSheet() {
         setBox({ w, h, x: (W - w) / 2, y: (H - h) / 2, contain });
         return;
       }
-      // schermi stretti: la tavola si allarga del 35% e resta centrata sulla casa (x ≈ 54% del disegno)
+      // schermi stretti: la tavola si allarga del 35% e resta centrata sulla casa (x circa 54% del disegno)
       const w = Math.min(W * 1.35, H * 0.6 * RATIO);
       const h = w / RATIO;
       const x = Math.min(0, Math.max(W - w, W / 2 - w * 0.545));
-      setBox({ w, h, x, y: Math.max((H - h) / 2, 0), contain });
+      setBox({ w, h, x, y: Math.max((H - h) / 2 + 30, 0), contain });
     };
     fit();
     const ro = new ResizeObserver(fit);
@@ -57,16 +58,17 @@ export function HeroSheet() {
         gsap.set(all, { strokeDasharray: 'none' });
         gsap.set(q('.photo'), { clipPath: 'inset(0 0% 0 0)' });
         gsap.set(q('.drawing'), { clipPath: 'inset(0 0 0 100%)' });
-        gsap.set(q('.end'), { autoAlpha: 1, y: 0 });
-        gsap.set(q('.scan'), { autoAlpha: 0 });
+        gsap.set(q('.end, .end-bg'), { autoAlpha: 1, y: 0 });
+        gsap.set(q('.scan, .start, .cue'), { autoAlpha: 0 });
         return;
       }
       gsap.set(all, { strokeDasharray: 1, strokeDashoffset: 1 });
       gsap.set(q('.photo'), { clipPath: 'inset(0 100% 0 0)' });
       gsap.set(q('.scan'), { left: '0%', autoAlpha: 0 });
       gsap.set(q('.end'), { autoAlpha: 0, y: 24 });
-      gsap.set(q('.end-bg'), { autoAlpha: 0 });
+      gsap.set(q('.end-bg, .cue'), { autoAlpha: 0 });
       gsap.set(q('.sheet-in'), { autoAlpha: 0, y: 12 });
+      gsap.set(q('.start'), { autoAlpha: 0, y: 18 });
 
       const W = { p: 0 };
       const apply = () => {
@@ -76,26 +78,43 @@ export function HeroSheet() {
         (q('.scan')[0] as HTMLElement).style.left = `${p}%`;
       };
 
+      // 1. all'apertura il prospetto si disegna da solo (circa 3,5 secondi)
+      const draw = gsap.timeline({ defaults: { ease: 'power2.inOut' }, delay: 0.35 });
+      draw
+        .to(q('.frame'), { strokeDashoffset: 0, duration: 0.9 }, 0)
+        .to(q('.start'), { autoAlpha: 1, y: 0, duration: 0.9, stagger: 0.1, ease: 'expo.out' }, 0.2)
+        .to(q('.sheet-in'), { autoAlpha: 1, y: 0, duration: 0.6, ease: 'expo.out' }, 0.4)
+        .to(q('.g-ground .ln')[0], { strokeDashoffset: 0, duration: 0.7 }, 0.3)
+        .to(q('.g-ground .ln').slice(1), { strokeDashoffset: 0, duration: 0.25, stagger: 0.004 }, 0.6)
+        .to(q('.g-struct .ln'), { strokeDashoffset: 0, duration: 0.7, stagger: 0.05 }, 0.7)
+        .to(q('.g-roofs .ln'), { strokeDashoffset: 0, duration: 0.8, stagger: 0.06 }, 1.1)
+        .to(q('.g-openings .ln'), { strokeDashoffset: 0, duration: 0.45, stagger: 0.025 }, 1.6)
+        .to(q('.g-hatch .ln'), { strokeDashoffset: 0, duration: 0.35, stagger: 0.005, ease: 'power1.out' }, 2.0)
+        .to(q('.g-ctx .ln'), { strokeDashoffset: 0, duration: 0.9, stagger: 0.04 }, 2.2)
+        .to(q('.g-dims .ln'), { strokeDashoffset: 0, duration: 0.4, stagger: 0.015 }, 2.7)
+        .to(q('.cue'), { autoAlpha: 1, duration: 0.6 }, 3.0);
+
+      // 2. allo scroll la linea rossa trasforma il disegno nella foto
       const tl = gsap.timeline({
         defaults: { ease: 'none' },
-        scrollTrigger: { trigger: el, start: 'top top', end: 'bottom bottom', scrub: 0.7 },
+        scrollTrigger: {
+          trigger: el,
+          start: 'top top',
+          end: 'bottom bottom',
+          scrub: 0.6,
+          // se si scorre prima che il disegno sia finito, lo si completa in fretta
+          onUpdate: (st) => {
+            if (st.progress > 0.01 && draw.progress() < 1) draw.timeScale(5);
+          },
+        },
       });
-      tl.to(q('.frame'), { strokeDashoffset: 0, duration: 0.8, stagger: 0.1 }, 0)
-        .to(q('.sheet-in'), { autoAlpha: 1, y: 0, duration: 0.5, stagger: 0.1 }, 0.3)
-        .to(q('.g-ground .ln')[0], { strokeDashoffset: 0, duration: 0.9 }, 0.3)
-        .to(q('.g-ground .ln').slice(1), { strokeDashoffset: 0, duration: 0.3, stagger: 0.006 }, 0.7)
-        .to(q('.g-struct .ln'), { strokeDashoffset: 0, duration: 0.9, stagger: 0.07 }, 0.9)
-        .to(q('.g-roofs .ln'), { strokeDashoffset: 0, duration: 1.1, stagger: 0.08 }, 1.5)
-        .to(q('.g-openings .ln'), { strokeDashoffset: 0, duration: 0.6, stagger: 0.035 }, 2.2)
-        .to(q('.g-hatch .ln'), { strokeDashoffset: 0, duration: 0.45, stagger: 0.008 }, 2.8)
-        .to(q('.g-ctx .ln'), { strokeDashoffset: 0, duration: 1.2, stagger: 0.06 }, 3.1)
-        .to(q('.g-dims .ln'), { strokeDashoffset: 0, duration: 0.5, stagger: 0.02 }, 3.7)
-        .to(q('.scan'), { autoAlpha: 1, duration: 0.15 }, 4.4)
-        .to(W, { p: 100, duration: 2.2, ease: 'power1.inOut', onUpdate: apply }, 4.45)
-        .to(q('.scan'), { autoAlpha: 0, duration: 0.2 }, 6.6)
-        .to(q('.end-bg'), { autoAlpha: 1, duration: 0.6 }, 6.3)
-        .to(q('.end'), { autoAlpha: 1, y: 0, duration: 0.6, stagger: 0.12 }, 6.5)
-        .to({}, { duration: 0.6 });
+      tl.to(q('.start, .cue'), { autoAlpha: 0, y: -16, duration: 0.35 }, 0)
+        .to(q('.scan'), { autoAlpha: 1, duration: 0.1 }, 0.05)
+        .to(W, { p: 100, duration: 1.8, ease: 'power1.inOut', onUpdate: apply }, 0.1)
+        .to(q('.scan'), { autoAlpha: 0, duration: 0.15 }, 1.9)
+        .to(q('.end-bg'), { autoAlpha: 1, duration: 0.5 }, 1.6)
+        .to(q('.end'), { autoAlpha: 1, y: 0, duration: 0.5, stagger: 0.1 }, 1.75)
+        .to({}, { duration: 0.2 });
     }, el);
     return () => ctx.revert();
   }, [reduced]);
@@ -112,7 +131,8 @@ export function HeroSheet() {
   ];
 
   return (
-    <section ref={section} className={cn('relative bg-white', reduced ? '' : 'h-[300vh] lg:h-[420vh]')} aria-label="Dal disegno alla casa">
+    <section ref={section} className={cn('relative bg-white', reduced ? '' : 'h-[175vh] lg:h-[200vh]')} aria-label="RGR Architetti, dal disegno alla casa">
+      <h1 className="sr-only">RGR Architetti, studio di architettura a Bergamo</h1>
       <div className={cn('top-0 flex h-[100svh] flex-col p-3 pt-[72px] sm:p-5 sm:pt-[84px] lg:p-8 lg:pt-[96px]', !reduced && 'sticky')}>
         <div className="relative flex-1">
           {/* cornice della tavola */}
@@ -121,13 +141,6 @@ export function HeroSheet() {
           </svg>
 
           <div ref={stage} className="paper-grid absolute inset-0 overflow-hidden">
-            {box.contain && (
-              <div className="sheet-in absolute inset-x-4 top-4 z-10">
-                <p className="label-tech !text-primary">Prospetto</p>
-                <p className="mt-1 font-display text-2xl font-bold uppercase leading-none text-rgr-black">Casa di montagna in Valseriana</p>
-              </div>
-            )}
-
             <div className="absolute" style={{ left: box.x, top: box.y, width: box.w, height: box.h }}>
               <img
                 className="photo absolute inset-0 h-full w-full select-none object-cover"
@@ -148,6 +161,23 @@ export function HeroSheet() {
               </svg>
               <div className="scan pointer-events-none absolute inset-y-0 z-10 w-[2px] -translate-x-1/2 bg-primary shadow-[0_0_24px_rgba(244,23,28,0.55)]" />
             </div>
+
+            {/* titolo d'apertura: scompare quando parte la linea rossa */}
+            <div className="pointer-events-none absolute left-4 right-4 top-4 z-10 sm:left-8 sm:top-7 lg:left-10 lg:top-9">
+              <p className="start label-tech !text-primary">Studio di architettura · Bergamo</p>
+              <p aria-hidden className="start mt-3 font-display text-[clamp(2.1rem,5.6vw,5.25rem)] font-bold uppercase leading-[0.9] text-rgr-black">
+                Dal disegno
+                <br />
+                alla casa
+              </p>
+            </div>
+            <p className="cue label-tech pointer-events-none absolute bottom-5 left-4 z-10 flex items-center gap-3 sm:left-8 lg:bottom-8 lg:left-10">
+              <span className="relative block h-9 w-px overflow-hidden bg-rgr-grey/40">
+                <span className="absolute inset-x-0 top-0 h-1/2 animate-[scrollcue_2.2s_cubic-bezier(0.65,0,0.35,1)_infinite] bg-primary" />
+              </span>
+              Scorra: il disegno diventa la casa
+            </p>
+            <style>{`@keyframes scrollcue{0%{transform:translateY(-100%)}60%,100%{transform:translateY(220%)}}`}</style>
 
             {/* fine sequenza: didascalia sopra la foto */}
             <div className="pointer-events-none absolute inset-x-0 bottom-0 z-10 p-5 sm:p-8 lg:p-12">

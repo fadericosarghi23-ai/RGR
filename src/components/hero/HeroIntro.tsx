@@ -16,7 +16,16 @@ const V_GUIDES = [44.4, 58.9, 80.2, 94.7, 146.2, 150, 164.5, 185.5, 200];
  * le lettere si chiudono e si riempiono del grigio del logo, ARCHITETTI e la linea rossa si tracciano.
  * Poi le linee ausiliarie si tolgono, una alla volta, finché non resta più niente da togliere.
  */
-export function HeroIntro() {
+type Props = {
+  /** titolo principale della pagina (letto dagli screen reader) */
+  title?: string;
+  /** etichetta in basso a sinistra */
+  label?: string;
+  /** invito allo scroll in basso a destra */
+  cue?: string;
+};
+
+export function HeroIntro({ title = 'RGR Architetti, studio di architettura a Bergamo', label = 'Studio di architettura · Bergamo', cue = 'Scorra' }: Props) {
   const root = useRef<HTMLElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   // 1 px schermo espresso in unità del viewBox: le linee restano sottili a ogni larghezza
@@ -81,8 +90,8 @@ export function HeroIntro() {
   const guide = 'guide draw fill-none stroke-[var(--rgr-grey)]';
 
   return (
-    <section ref={root} className="paper-grid relative flex min-h-[100svh] flex-col overflow-hidden" aria-label="RGR Architetti">
-      <h1 className="sr-only">RGR Architetti, studio di architettura a Bergamo</h1>
+    <section ref={root} className="paper-grid relative flex min-h-[92svh] flex-col overflow-hidden" aria-label="RGR Architetti">
+      <h1 className="sr-only">{title}</h1>
 
       <div className="relative flex flex-1 flex-col items-center justify-center px-4 pb-10 pt-28 lg:pt-24">
         <svg
@@ -134,9 +143,9 @@ export function HeroIntro() {
 
       {/* cartiglio a margine del foglio */}
       <div className="container-rgr relative flex items-end justify-between pb-6 lg:pb-8">
-        <p className="fade label-tech hidden sm:block">Studio di architettura · Bergamo</p>
+        <p className="fade label-tech hidden sm:block">{label}</p>
         <p className="fade label-tech flex items-center gap-3">
-          <span>Scorra: dal disegno alla casa</span>
+          <span>{cue}</span>
           <span className="relative block h-10 w-px overflow-hidden bg-rgr-grey/40">
             <span className="absolute inset-x-0 top-0 h-1/2 animate-[scrollcue_2.2s_cubic-bezier(0.65,0,0.35,1)_infinite] bg-primary" />
           </span>

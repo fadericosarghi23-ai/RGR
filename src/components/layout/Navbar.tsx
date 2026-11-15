@@ -16,7 +16,8 @@ export function Navbar() {
   const [open, setOpen] = useState<string | null>(null);
   const [mobile, setMobile] = useState(false);
   const loc = useLocation();
-  const isHome = loc.pathname === '/';
+  // la pagina Studio si apre con il logo grande che si disegna: lì il logo della navbar compare dopo
+  const logoIntro = loc.pathname === '/studio';
   const [pastHero, setPastHero] = useState(false);
 
   useMotionValueEvent(scrollY, 'change', (y) => {
@@ -36,7 +37,7 @@ export function Navbar() {
       <motion.header
         className={cn(
           'fixed inset-x-0 top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-500',
-          (solid && (!isHome || pastHero)) || open ? 'bg-white/92 shadow-[0_1px_0_rgba(0,0,0,0.06)] backdrop-blur-md' : 'bg-transparent',
+          (solid && (!logoIntro || pastHero)) || open ? 'bg-white/92 shadow-[0_1px_0_rgba(0,0,0,0.06)] backdrop-blur-md' : 'bg-transparent',
         )}
         animate={{ y: hidden ? '-100%' : '0%' }}
         transition={{ duration: 0.5, ease: EASE_EXPO }}
@@ -44,7 +45,7 @@ export function Navbar() {
       >
         <div className="container-rgr flex h-[76px] items-center justify-between gap-6 lg:h-[88px]">
           <Link to="/" aria-label="RGR Architetti, torna alla home" className="relative z-10 flex h-12 shrink-0 items-center">
-            <Logo className={cn('w-[104px] transition-all duration-700 lg:w-[124px]', isHome && !pastHero && !mobile ? 'pointer-events-none -translate-y-2 opacity-0' : 'opacity-100')} />
+            <Logo className={cn('w-[104px] transition-all duration-700 lg:w-[124px]', logoIntro && !pastHero && !mobile ? 'pointer-events-none -translate-y-2 opacity-0' : 'opacity-100')} />
           </Link>
 
           <nav aria-label="Principale" className="hidden items-center gap-1 lg:flex">
